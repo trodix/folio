@@ -112,6 +112,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::indexAction',  '_route' => 'homepage',);
         }
 
+        // ppe1
+        if ('/ppe/1' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::ppe1Action',  '_route' => 'ppe1',);
+        }
+
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();
     }
 }

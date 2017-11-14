@@ -3,9 +3,9 @@
     <head>
 			<meta charset="UTF-8" />
 			<title>{% block title %}Portfolio Sébastien Vallet{% endblock %}</title>
-			<link rel="stylesheet" href="css/bootstrap.min.css">
-			<link rel="stylesheet" href="css/font-awesome.min.css">
-			<link rel="stylesheet" href="css/style.css">
+			<link rel="stylesheet" href="/css/bootstrap.min.css">
+			<link rel="stylesheet" href="/css/font-awesome.min.css">
+			<link rel="stylesheet" href="/css/style.css">
 			{% block stylesheets %}{% endblock %}
 			<link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
@@ -23,10 +23,10 @@
 			          <span class="fa fa-graduation-cap"></span> Mes compétences
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			          <a class="dropdown-item" href="#">PPE1</a>
-			          <a class="dropdown-item" href="#">PPE2</a>
-			          <a class="dropdown-item" href="#">PPE3</a>
-			          <a class="dropdown-item" href="#">Grille de compétences</a>
+			          <a class="dropdown-item" href="/ppe/1">PPE1</a>
+			          <a class="dropdown-item" href="/ppe/2">PPE2</a>
+			          <a class="dropdown-item" href="/ppe/3">PPE3</a>
+			          <a class="dropdown-item" href="/grille">Grille de compétences</a>
 			        </div>
 			      </li>
 			      <li class="nav-item dropdown">
@@ -67,7 +67,7 @@
 
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-		<script src="js/bootstrap.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
         {% block javascripts %}{% endblock %}
     </body>
 </html>
