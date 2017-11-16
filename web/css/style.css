@@ -25,6 +25,7 @@ hr {
 
 .title-stripes {
     background: url(/img/stripes.png) center left repeat-x;
+    font-size: 1.5em;
 }
 
 .skill-title-1 {
@@ -43,6 +44,10 @@ hr {
 
 .underline {
     text-decoration: underline;
+}
+
+.font-italic {
+    font-style: italic;
 }
 
 .skill {

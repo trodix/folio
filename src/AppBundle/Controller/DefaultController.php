@@ -29,4 +29,26 @@ class DefaultController extends Controller
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
         ]);
     }
+
+    /**
+     * @Route("/ppe/2", name="ppe2")
+     */
+    public function ppe2Action(Request $request)
+    {
+        // replace this example code with whatever you need
+        return $this->render('folio/ppe2.html.twig', [
+            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+        ]);
+    }
+
+    /**
+     * @Route("/ppe/3", name="ppe3")
+     */
+    public function ppe3Action(Request $request)
+    {
+        // replace this example code with whatever you need
+        return $this->render('folio/ppe3.html.twig', [
+            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+        ]);
+    }
 }
