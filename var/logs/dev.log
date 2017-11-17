@@ -667,3 +667,4 @@
 [2017-11-16 21:57:18] request.INFO: Matched route "ppe3". {"route":"ppe3","route_parameters":{"_controller":"AppBundle\\Controller\\DefaultController::ppe3Action","_route":"ppe3"},"request_uri":"http://localhost:8000/ppe/3","method":"GET"} []
 [2017-11-16 21:57:18] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
 [2017-11-16 21:57:24] request.INFO: Matched route "_wdt". {"route":"_wdt","route_parameters":{"_controller":"web_profiler.controller.profiler:toolbarAction","token":"98e7d0","_route":"_wdt"},"request_uri":"http://localhost:8000/_wdt/98e7d0","method":"GET"} []
+[2017-11-16 22:44:32] request.INFO: Matched route "_wdt". {"route":"_wdt","route_parameters":{"_controller":"web_profiler.controller.profiler:toolbarAction","token":"98e7d0","_route":"_wdt"},"request_uri":"http://localhost:8000/_wdt/98e7d0","method":"GET"} []
