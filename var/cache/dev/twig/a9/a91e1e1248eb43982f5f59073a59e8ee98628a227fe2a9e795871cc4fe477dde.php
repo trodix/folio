@@ -21,46 +21,98 @@ class __TwigTemplate_a04b415d186c61b9b7411c9be23014428b356bb228b9bcdbf82b69548a5
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_665e696cd662d87b144b2ee7769d648f39e4ef058d6bdc76fd528d2ea6115a5b = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_665e696cd662d87b144b2ee7769d648f39e4ef058d6bdc76fd528d2ea6115a5b->enter($__internal_665e696cd662d87b144b2ee7769d648f39e4ef058d6bdc76fd528d2ea6115a5b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/veille.html.twig"));
+        $__internal_45191958ba5226ea56d879dcf9c243e028bda128009964d3a9d521291a62ee5e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_45191958ba5226ea56d879dcf9c243e028bda128009964d3a9d521291a62ee5e->enter($__internal_45191958ba5226ea56d879dcf9c243e028bda128009964d3a9d521291a62ee5e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/veille.html.twig"));
 
-        $__internal_0fc6b35a1420c5d7d0c4b4b5ea82565ca05636de2560026ffffd7b72dc66bcfd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_0fc6b35a1420c5d7d0c4b4b5ea82565ca05636de2560026ffffd7b72dc66bcfd->enter($__internal_0fc6b35a1420c5d7d0c4b4b5ea82565ca05636de2560026ffffd7b72dc66bcfd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/veille.html.twig"));
+        $__internal_ee2ca200ede14dd0a5fb8928cf89feac6b76e3551f16422e50c2bca98c61ae39 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ee2ca200ede14dd0a5fb8928cf89feac6b76e3551f16422e50c2bca98c61ae39->enter($__internal_ee2ca200ede14dd0a5fb8928cf89feac6b76e3551f16422e50c2bca98c61ae39_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/veille.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_665e696cd662d87b144b2ee7769d648f39e4ef058d6bdc76fd528d2ea6115a5b->leave($__internal_665e696cd662d87b144b2ee7769d648f39e4ef058d6bdc76fd528d2ea6115a5b_prof);
+        $__internal_45191958ba5226ea56d879dcf9c243e028bda128009964d3a9d521291a62ee5e->leave($__internal_45191958ba5226ea56d879dcf9c243e028bda128009964d3a9d521291a62ee5e_prof);
 
         
-        $__internal_0fc6b35a1420c5d7d0c4b4b5ea82565ca05636de2560026ffffd7b72dc66bcfd->leave($__internal_0fc6b35a1420c5d7d0c4b4b5ea82565ca05636de2560026ffffd7b72dc66bcfd_prof);
+        $__internal_ee2ca200ede14dd0a5fb8928cf89feac6b76e3551f16422e50c2bca98c61ae39->leave($__internal_ee2ca200ede14dd0a5fb8928cf89feac6b76e3551f16422e50c2bca98c61ae39_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_bf01d093ce8a14033ee412b9db6ca1a82a547a2db3ace9ff04218f90eda9f14d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_bf01d093ce8a14033ee412b9db6ca1a82a547a2db3ace9ff04218f90eda9f14d->enter($__internal_bf01d093ce8a14033ee412b9db6ca1a82a547a2db3ace9ff04218f90eda9f14d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_8ed497b5388b2ac08e17b1f76a8cbb776027c7263ce70f9b95ccd1796506d524 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_8ed497b5388b2ac08e17b1f76a8cbb776027c7263ce70f9b95ccd1796506d524->enter($__internal_8ed497b5388b2ac08e17b1f76a8cbb776027c7263ce70f9b95ccd1796506d524_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_d7fe7acd4a77767e48bad61c0c571c933a736fa4ada2a3522bab2764b6e09dd6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_d7fe7acd4a77767e48bad61c0c571c933a736fa4ada2a3522bab2764b6e09dd6->enter($__internal_d7fe7acd4a77767e48bad61c0c571c933a736fa4ada2a3522bab2764b6e09dd6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_b1afbaf0f9ba09fcaee9ea0034e9bf011994511dfccd83e1cdac60bd1161ebe4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_b1afbaf0f9ba09fcaee9ea0034e9bf011994511dfccd83e1cdac60bd1161ebe4->enter($__internal_b1afbaf0f9ba09fcaee9ea0034e9bf011994511dfccd83e1cdac60bd1161ebe4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "
-<div>
-    <article>
-        <img>
-        <h2></h2>
-        <p></p>
-    </article>
+<div class=\"row\">
+    <div class=\"col-sm-12 col-md-10\">
+        ";
+        // line 7
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(($context["articles"] ?? $this->getContext($context, "articles")));
+        foreach ($context['_seq'] as $context["_key"] => $context["article"]) {
+            // line 8
+            echo "        <div id=\"art-";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["article"], "id", array()), "html", null, true);
+            echo "\">
+            <article class=\"article row\">
+                <div class=\"col-md-3\">
+                    <a class=\"hidden-sm-down\" href=\"";
+            // line 11
+            echo twig_escape_filter($this->env, $this->getAttribute($context["article"], "urlSource", array()), "html", null, true);
+            echo "\" target=\"_blank\">
+                        <img class=\"art-picture\" src=\"";
+            // line 12
+            echo twig_escape_filter($this->env, $this->getAttribute($context["article"], "urlPicture", array()), "html", null, true);
+            echo "\" alt=\"";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["article"], "title", array()), "html", null, true);
+            echo "\">
+                    </a>
+                </div>
+                <div class=\"col\">
+                    <h2 class=\"art-title\">
+                        <a href=\"";
+            // line 17
+            echo twig_escape_filter($this->env, $this->getAttribute($context["article"], "urlSource", array()), "html", null, true);
+            echo "\" target=\"_blank\">";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["article"], "title", array()), "html", null, true);
+            echo "</a>
+                    </h2>
+                    <div class=\"art-header\">
+                        <div class=\"left\">
+                            <p>Crée le ";
+            // line 21
+            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["article"], "date", array()), "d/m/Y"), "html", null, true);
+            echo "</p>
+                        </div>
+                    </div>
+                    <div class=\"article-description\">
+                        <p>";
+            // line 25
+            echo twig_escape_filter($this->env, $this->getAttribute($context["article"], "description", array()), "html", null, true);
+            echo "</p>
+                    </div>  
+                </div>              
+            </article>
+        </div>
+        ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['article'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 31
+        echo "    </div>
 </div>
 
 ";
         
-        $__internal_d7fe7acd4a77767e48bad61c0c571c933a736fa4ada2a3522bab2764b6e09dd6->leave($__internal_d7fe7acd4a77767e48bad61c0c571c933a736fa4ada2a3522bab2764b6e09dd6_prof);
+        $__internal_b1afbaf0f9ba09fcaee9ea0034e9bf011994511dfccd83e1cdac60bd1161ebe4->leave($__internal_b1afbaf0f9ba09fcaee9ea0034e9bf011994511dfccd83e1cdac60bd1161ebe4_prof);
 
         
-        $__internal_bf01d093ce8a14033ee412b9db6ca1a82a547a2db3ace9ff04218f90eda9f14d->leave($__internal_bf01d093ce8a14033ee412b9db6ca1a82a547a2db3ace9ff04218f90eda9f14d_prof);
+        $__internal_8ed497b5388b2ac08e17b1f76a8cbb776027c7263ce70f9b95ccd1796506d524->leave($__internal_8ed497b5388b2ac08e17b1f76a8cbb776027c7263ce70f9b95ccd1796506d524_prof);
 
     }
 
@@ -76,7 +128,7 @@ class __TwigTemplate_a04b415d186c61b9b7411c9be23014428b356bb228b9bcdbf82b69548a5
 
     public function getDebugInfo()
     {
-        return array (  49 => 4,  40 => 3,  11 => 1,);
+        return array (  107 => 31,  95 => 25,  88 => 21,  79 => 17,  69 => 12,  65 => 11,  58 => 8,  54 => 7,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -93,12 +145,33 @@ class __TwigTemplate_a04b415d186c61b9b7411c9be23014428b356bb228b9bcdbf82b69548a5
 
 {% block body %}
 
-<div>
-    <article>
-        <img>
-        <h2></h2>
-        <p></p>
-    </article>
+<div class=\"row\">
+    <div class=\"col-sm-12 col-md-10\">
+        {% for article in articles %}
+        <div id=\"art-{{article.id}}\">
+            <article class=\"article row\">
+                <div class=\"col-md-3\">
+                    <a class=\"hidden-sm-down\" href=\"{{article.urlSource}}\" target=\"_blank\">
+                        <img class=\"art-picture\" src=\"{{article.urlPicture}}\" alt=\"{{article.title}}\">
+                    </a>
+                </div>
+                <div class=\"col\">
+                    <h2 class=\"art-title\">
+                        <a href=\"{{article.urlSource}}\" target=\"_blank\">{{article.title}}</a>
+                    </h2>
+                    <div class=\"art-header\">
+                        <div class=\"left\">
+                            <p>Crée le {{article.date|date(\"d/m/Y\")}}</p>
+                        </div>
+                    </div>
+                    <div class=\"article-description\">
+                        <p>{{article.description}}</p>
+                    </div>  
+                </div>              
+            </article>
+        </div>
+        {% endfor %}
+    </div>
 </div>
 
 {% endblock %}", "folio/veille.html.twig", "E:\\User\\Google Drive\\Programmation\\Symfony\\folio\\app\\Resources\\views\\folio\\veille.html.twig");

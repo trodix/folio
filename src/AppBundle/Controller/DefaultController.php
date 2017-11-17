@@ -57,9 +57,10 @@ class DefaultController extends Controller
      */
     public function veilleAction(Request $request)
     {
+        $articles = $this->getDoctrine()->getRepository('AppBundle:Article')->findAll();
         // replace this example code with whatever you need
         return $this->render('folio/veille.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR, 'articles' => $articles
         ]);
     }
 }
