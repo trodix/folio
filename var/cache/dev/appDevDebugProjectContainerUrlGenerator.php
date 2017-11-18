@@ -35,6 +35,7 @@ class appDevDebugProjectContainerUrlGenerator extends Symfony\Component\Routing\
         'ppe2' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'AppBundle\\Controller\\DefaultController::ppe2Action',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/ppe/2',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
         'ppe3' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'AppBundle\\Controller\\DefaultController::ppe3Action',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/ppe/3',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
         'veille' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'AppBundle\\Controller\\DefaultController::veilleAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/veille',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
+        'contact' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'AppBundle\\Controller\\DefaultController::contactAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/contact',    ),  ),  4 =>   array (  ),  5 =>   array (  ),),
     );
         }
     }

@@ -126,4 +126,23 @@ footer a {
     margin-left: 0px;
 }
 
-.left {}
+.form-control:required {
+    background: url(/img/red_asterisk.png) 98% center no-repeat #fff;
+}
+
+.form-control:required:valid {
+    border-color: #56C93F;
+    background: url(/img/valide.png) 98% center no-repeat #fff;
+    box-shadow: 0 0 5px #5CD053
+}
+
+.form-control:focus:invalid {
+    border-color: #FF5A5A;
+    background: url(/img/invalide.png) 98% center no-repeat #fff;
+    box-shadow: 0 0 5px #D45252
+}
+
+.g-recaptcha {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
