@@ -21,35 +21,38 @@ class __TwigTemplate_6b3636748faab6b1712d29b260f4169ab37d77dda674393e385b5c35489
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_b3b7a0b552a655ddd8d8129ab63655664fff11d532647d44d367b19ed35eecb9 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_b3b7a0b552a655ddd8d8129ab63655664fff11d532647d44d367b19ed35eecb9->enter($__internal_b3b7a0b552a655ddd8d8129ab63655664fff11d532647d44d367b19ed35eecb9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/ppe3.html.twig"));
+        $__internal_ca697f7dc84e2b3f51665acff938eee32faa423690b29e46c5e07cff87dd7442 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_ca697f7dc84e2b3f51665acff938eee32faa423690b29e46c5e07cff87dd7442->enter($__internal_ca697f7dc84e2b3f51665acff938eee32faa423690b29e46c5e07cff87dd7442_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/ppe3.html.twig"));
 
-        $__internal_7f2b94e2e0f48e9c839b372200b81237268403453457d64759ed3997b7811c69 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_7f2b94e2e0f48e9c839b372200b81237268403453457d64759ed3997b7811c69->enter($__internal_7f2b94e2e0f48e9c839b372200b81237268403453457d64759ed3997b7811c69_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/ppe3.html.twig"));
+        $__internal_a595dedbacef87a44c736edf5f88d4083e9700dfba5d478c5d8db2561f16c21d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a595dedbacef87a44c736edf5f88d4083e9700dfba5d478c5d8db2561f16c21d->enter($__internal_a595dedbacef87a44c736edf5f88d4083e9700dfba5d478c5d8db2561f16c21d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/ppe3.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_b3b7a0b552a655ddd8d8129ab63655664fff11d532647d44d367b19ed35eecb9->leave($__internal_b3b7a0b552a655ddd8d8129ab63655664fff11d532647d44d367b19ed35eecb9_prof);
+        $__internal_ca697f7dc84e2b3f51665acff938eee32faa423690b29e46c5e07cff87dd7442->leave($__internal_ca697f7dc84e2b3f51665acff938eee32faa423690b29e46c5e07cff87dd7442_prof);
 
         
-        $__internal_7f2b94e2e0f48e9c839b372200b81237268403453457d64759ed3997b7811c69->leave($__internal_7f2b94e2e0f48e9c839b372200b81237268403453457d64759ed3997b7811c69_prof);
+        $__internal_a595dedbacef87a44c736edf5f88d4083e9700dfba5d478c5d8db2561f16c21d->leave($__internal_a595dedbacef87a44c736edf5f88d4083e9700dfba5d478c5d8db2561f16c21d_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_0c4de43f89a5da1b9f10a0bfa864956c04200cf2caaa29f3a0affd81810936da = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_0c4de43f89a5da1b9f10a0bfa864956c04200cf2caaa29f3a0affd81810936da->enter($__internal_0c4de43f89a5da1b9f10a0bfa864956c04200cf2caaa29f3a0affd81810936da_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_d1ebf4dcb2a94d1198a8fc19118b2148752a47b8bfa6c758a620c199e08619fa = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_d1ebf4dcb2a94d1198a8fc19118b2148752a47b8bfa6c758a620c199e08619fa->enter($__internal_d1ebf4dcb2a94d1198a8fc19118b2148752a47b8bfa6c758a620c199e08619fa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_27a7d3940aa8c92863cc3e6ff6393cc01601cf0f5f727e35dd513e1d9c070499 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_27a7d3940aa8c92863cc3e6ff6393cc01601cf0f5f727e35dd513e1d9c070499->enter($__internal_27a7d3940aa8c92863cc3e6ff6393cc01601cf0f5f727e35dd513e1d9c070499_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_45219df8b365b7bfd21687dc213b09a1a4dac31ddba950f5b83f1a53c07230ce = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_45219df8b365b7bfd21687dc213b09a1a4dac31ddba950f5b83f1a53c07230ce->enter($__internal_45219df8b365b7bfd21687dc213b09a1a4dac31ddba950f5b83f1a53c07230ce_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "
 <div>
 \t<div class=\"row\">
-            <img src=\"/img/ppe/ppe3/logo-sdis.png\"><h3 class=\"skill-title-1\">SDIS29</h3>
+            <img src=\"";
+        // line 7
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe3/logo-sdis.png"), "html", null, true);
+        echo "\"><h3 class=\"skill-title-1\">SDIS29</h3>
     </div><hr>
 \t<article class=\"card bg-faded p-3\">
         <h3>Contexte</h3>
@@ -75,11 +78,36 @@ class __TwigTemplate_6b3636748faab6b1712d29b260f4169ab37d77dda674393e385b5c35489
 \t<li class=\"decoration-arrow\"><span class=\"fa fa-arrow-right\"></span> <strong>Chef de centre :</strong> Créer, modifier et visualiser les profils des pompiers</li>
 \t<li class=\"decoration-arrow\"><span class=\"fa fa-arrow-right\"></span> <strong>Pompier volontaire :</strong> Afficher et modifier ses informations personnelles</li>
 
-    <a target=\"_blank\" href=\"/img/ppe/ppe3/sdis29-connexion.png\"><img src=\"/img/ppe/ppe3/sdis29-connexion.png\" class=\"screen-picture\"></a>
-    <a target=\"_blank\" href=\"/img/ppe/ppe3/sdis29-liste.png\"><img src=\"/img/ppe/ppe3/sdis29-liste.png\" class=\"screen-picture\"></a>
-    <a target=\"_blank\" href=\"/img/ppe/ppe3/sdis29-profil.png\"><img src=\"/img/ppe/ppe3/sdis29-profil.png\" class=\"screen-picture\"></a>
-    <a target=\"_blank\" href=\"/img/ppe/ppe3/sdis29-creer.png\"><img src=\"/img/ppe/ppe3/sdis29-creer.png\" class=\"screen-picture\"></a>
-    <a target=\"_blank\" href=\"/img/ppe/ppe3/sdis29-charte.png\"><img src=\"/img/ppe/ppe3/sdis29-charte.png\" class=\"screen-picture\"></a>
+    <a target=\"_blank\" href=\"";
+        // line 33
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe3/sdis29-connexion.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe3/sdis29-connexion.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
+    <a target=\"_blank\" href=\"";
+        // line 34
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe3/sdis29-liste.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe3/sdis29-liste.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
+    <a target=\"_blank\" href=\"";
+        // line 35
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe3/sdis29-profil.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe3/sdis29-profil.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
+    <a target=\"_blank\" href=\"";
+        // line 36
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe3/sdis29-creer.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe3/sdis29-creer.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
+    <a target=\"_blank\" href=\"";
+        // line 37
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe3/sdis29-charte.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe3/sdis29-charte.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
 
 
 </div><hr>
@@ -108,10 +136,10 @@ class __TwigTemplate_6b3636748faab6b1712d29b260f4169ab37d77dda674393e385b5c35489
 
 ";
         
-        $__internal_27a7d3940aa8c92863cc3e6ff6393cc01601cf0f5f727e35dd513e1d9c070499->leave($__internal_27a7d3940aa8c92863cc3e6ff6393cc01601cf0f5f727e35dd513e1d9c070499_prof);
+        $__internal_45219df8b365b7bfd21687dc213b09a1a4dac31ddba950f5b83f1a53c07230ce->leave($__internal_45219df8b365b7bfd21687dc213b09a1a4dac31ddba950f5b83f1a53c07230ce_prof);
 
         
-        $__internal_0c4de43f89a5da1b9f10a0bfa864956c04200cf2caaa29f3a0affd81810936da->leave($__internal_0c4de43f89a5da1b9f10a0bfa864956c04200cf2caaa29f3a0affd81810936da_prof);
+        $__internal_d1ebf4dcb2a94d1198a8fc19118b2148752a47b8bfa6c758a620c199e08619fa->leave($__internal_d1ebf4dcb2a94d1198a8fc19118b2148752a47b8bfa6c758a620c199e08619fa_prof);
 
     }
 
@@ -127,7 +155,7 @@ class __TwigTemplate_6b3636748faab6b1712d29b260f4169ab37d77dda674393e385b5c35489
 
     public function getDebugInfo()
     {
-        return array (  49 => 4,  40 => 3,  11 => 1,);
+        return array (  107 => 37,  101 => 36,  95 => 35,  89 => 34,  83 => 33,  54 => 7,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -146,7 +174,7 @@ class __TwigTemplate_6b3636748faab6b1712d29b260f4169ab37d77dda674393e385b5c35489
 
 <div>
 \t<div class=\"row\">
-            <img src=\"/img/ppe/ppe3/logo-sdis.png\"><h3 class=\"skill-title-1\">SDIS29</h3>
+            <img src=\"{{asset('img/ppe/ppe3/logo-sdis.png')}}\"><h3 class=\"skill-title-1\">SDIS29</h3>
     </div><hr>
 \t<article class=\"card bg-faded p-3\">
         <h3>Contexte</h3>
@@ -172,11 +200,11 @@ class __TwigTemplate_6b3636748faab6b1712d29b260f4169ab37d77dda674393e385b5c35489
 \t<li class=\"decoration-arrow\"><span class=\"fa fa-arrow-right\"></span> <strong>Chef de centre :</strong> Créer, modifier et visualiser les profils des pompiers</li>
 \t<li class=\"decoration-arrow\"><span class=\"fa fa-arrow-right\"></span> <strong>Pompier volontaire :</strong> Afficher et modifier ses informations personnelles</li>
 
-    <a target=\"_blank\" href=\"/img/ppe/ppe3/sdis29-connexion.png\"><img src=\"/img/ppe/ppe3/sdis29-connexion.png\" class=\"screen-picture\"></a>
-    <a target=\"_blank\" href=\"/img/ppe/ppe3/sdis29-liste.png\"><img src=\"/img/ppe/ppe3/sdis29-liste.png\" class=\"screen-picture\"></a>
-    <a target=\"_blank\" href=\"/img/ppe/ppe3/sdis29-profil.png\"><img src=\"/img/ppe/ppe3/sdis29-profil.png\" class=\"screen-picture\"></a>
-    <a target=\"_blank\" href=\"/img/ppe/ppe3/sdis29-creer.png\"><img src=\"/img/ppe/ppe3/sdis29-creer.png\" class=\"screen-picture\"></a>
-    <a target=\"_blank\" href=\"/img/ppe/ppe3/sdis29-charte.png\"><img src=\"/img/ppe/ppe3/sdis29-charte.png\" class=\"screen-picture\"></a>
+    <a target=\"_blank\" href=\"{{asset('img/ppe/ppe3/sdis29-connexion.png')}}\"><img src=\"{{asset('img/ppe/ppe3/sdis29-connexion.png')}}\" class=\"screen-picture\"></a>
+    <a target=\"_blank\" href=\"{{asset('img/ppe/ppe3/sdis29-liste.png')}}\"><img src=\"{{asset('img/ppe/ppe3/sdis29-liste.png')}}\" class=\"screen-picture\"></a>
+    <a target=\"_blank\" href=\"{{asset('img/ppe/ppe3/sdis29-profil.png')}}\"><img src=\"{{asset('img/ppe/ppe3/sdis29-profil.png')}}\" class=\"screen-picture\"></a>
+    <a target=\"_blank\" href=\"{{asset('img/ppe/ppe3/sdis29-creer.png')}}\"><img src=\"{{asset('img/ppe/ppe3/sdis29-creer.png')}}\" class=\"screen-picture\"></a>
+    <a target=\"_blank\" href=\"{{asset('img/ppe/ppe3/sdis29-charte.png')}}\"><img src=\"{{asset('img/ppe/ppe3/sdis29-charte.png')}}\" class=\"screen-picture\"></a>
 
 
 </div><hr>

@@ -23,6 +23,35 @@ hr {
     border-bottom: 1px dashed #c9c9c9;
 }
 
+footer {
+    border-top: 3px solid #c9c9c9;
+    background-color: #EBEEF1;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer h3 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-size: 1.2em;
+    font-family: 'courgette';
+}
+
+footer a {
+    position: relative;
+}
+
+.link-social {
+    color: black;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+.text-light {
+    color: white !important;
+}
+
 .title-stripes {
     background: url(/img/stripes.png) center left repeat-x;
     font-size: 1.5em;
