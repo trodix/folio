@@ -21,35 +21,38 @@ class __TwigTemplate_4917bc7370038e5c6497e6f8cad7b905f87b0ad539a14527204c7172477
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_501a86df89f681fef45b01511f70ef149ec33a3cbc813ad580f74af2d764b7d7 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_501a86df89f681fef45b01511f70ef149ec33a3cbc813ad580f74af2d764b7d7->enter($__internal_501a86df89f681fef45b01511f70ef149ec33a3cbc813ad580f74af2d764b7d7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/ppe1.html.twig"));
+        $__internal_1e47cde97b1ac85cb7a0999acde0ee9fea9bfadaaf94872c0bb7c5b7425b19aa = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_1e47cde97b1ac85cb7a0999acde0ee9fea9bfadaaf94872c0bb7c5b7425b19aa->enter($__internal_1e47cde97b1ac85cb7a0999acde0ee9fea9bfadaaf94872c0bb7c5b7425b19aa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/ppe1.html.twig"));
 
-        $__internal_66008a3b9121eafffb579fc96de28e205d17b8478e74910b0639e3d024e0f2b9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_66008a3b9121eafffb579fc96de28e205d17b8478e74910b0639e3d024e0f2b9->enter($__internal_66008a3b9121eafffb579fc96de28e205d17b8478e74910b0639e3d024e0f2b9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/ppe1.html.twig"));
+        $__internal_7a3f5db41f28f08a567ea1c0cf5d1fde2afc727a9ef7cd2a16368e9dc40fbec1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_7a3f5db41f28f08a567ea1c0cf5d1fde2afc727a9ef7cd2a16368e9dc40fbec1->enter($__internal_7a3f5db41f28f08a567ea1c0cf5d1fde2afc727a9ef7cd2a16368e9dc40fbec1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/ppe1.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_501a86df89f681fef45b01511f70ef149ec33a3cbc813ad580f74af2d764b7d7->leave($__internal_501a86df89f681fef45b01511f70ef149ec33a3cbc813ad580f74af2d764b7d7_prof);
+        $__internal_1e47cde97b1ac85cb7a0999acde0ee9fea9bfadaaf94872c0bb7c5b7425b19aa->leave($__internal_1e47cde97b1ac85cb7a0999acde0ee9fea9bfadaaf94872c0bb7c5b7425b19aa_prof);
 
         
-        $__internal_66008a3b9121eafffb579fc96de28e205d17b8478e74910b0639e3d024e0f2b9->leave($__internal_66008a3b9121eafffb579fc96de28e205d17b8478e74910b0639e3d024e0f2b9_prof);
+        $__internal_7a3f5db41f28f08a567ea1c0cf5d1fde2afc727a9ef7cd2a16368e9dc40fbec1->leave($__internal_7a3f5db41f28f08a567ea1c0cf5d1fde2afc727a9ef7cd2a16368e9dc40fbec1_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_a4c1190cd8a767fc8d2089e526d12c24565d2403f67639f81f26176f4eefb128 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_a4c1190cd8a767fc8d2089e526d12c24565d2403f67639f81f26176f4eefb128->enter($__internal_a4c1190cd8a767fc8d2089e526d12c24565d2403f67639f81f26176f4eefb128_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_4ee573c8b1d4872256b877681f0a4a8e2ae88aa4678c5c98292154edde775791 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_4ee573c8b1d4872256b877681f0a4a8e2ae88aa4678c5c98292154edde775791->enter($__internal_4ee573c8b1d4872256b877681f0a4a8e2ae88aa4678c5c98292154edde775791_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_80fdf82cd437d9f8fe3925c3fe736bb230942ad01912f125708cee72eec6fd69 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_80fdf82cd437d9f8fe3925c3fe736bb230942ad01912f125708cee72eec6fd69->enter($__internal_80fdf82cd437d9f8fe3925c3fe736bb230942ad01912f125708cee72eec6fd69_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_488e17713641d29a9c5f7a8db23079696631b006839be361ce6763301ad724b3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_488e17713641d29a9c5f7a8db23079696631b006839be361ce6763301ad724b3->enter($__internal_488e17713641d29a9c5f7a8db23079696631b006839be361ce6763301ad724b3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "<div>
     <div>
         <div class=\"row\">
-            <img src=\"/img/ppe/ppe1/doriath.png\"><h3 class=\"skill-title-1\">Projet personnalisé encadré - Doriath</h3>
+            <img src=\"";
+        // line 7
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe1/doriath.png"), "html", null, true);
+        echo "\"><h3 class=\"skill-title-1\">Projet personnalisé encadré - Doriath</h3>
         </div>
         <hr><br>
         <article class=\"card bg-faded p-3\">
@@ -75,9 +78,24 @@ class __TwigTemplate_4917bc7370038e5c6497e6f8cad7b905f87b0ad539a14527204c7172477
         </div>
         <li>Développement d'un site intranet permettant de disposer d'informations afin de mieux gérer les réservation pour le restaurant.</li>
         <li>Développement d'une petite application Java permettant de disposer de statistiques sur l'activité du restaurant.</li>
-        <a target=\"_blank\" href=\"/img/ppe/ppe1/doriath-screen-1.png\"><img src=\"/img/ppe/ppe1/doriath-screen-1.png\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"/img/ppe/ppe1/doriath-screen-2.png\"><img src=\"/img/ppe/ppe1/doriath-screen-2.png\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"/img/ppe/ppe1/doriath-screen-3.png\"><img src=\"/img/ppe/ppe1/doriath-screen-3.png\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"";
+        // line 33
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe1/doriath-screen-1.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe1/doriath-screen-1.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"";
+        // line 34
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe1/doriath-screen-2.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe1/doriath-screen-2.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"";
+        // line 35
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe1/doriath-screen-3.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe1/doriath-screen-3.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
         <br>
 
         <div class=\"title-stripes font-italic\">
@@ -102,10 +120,10 @@ class __TwigTemplate_4917bc7370038e5c6497e6f8cad7b905f87b0ad539a14527204c7172477
 </div>
 ";
         
-        $__internal_80fdf82cd437d9f8fe3925c3fe736bb230942ad01912f125708cee72eec6fd69->leave($__internal_80fdf82cd437d9f8fe3925c3fe736bb230942ad01912f125708cee72eec6fd69_prof);
+        $__internal_488e17713641d29a9c5f7a8db23079696631b006839be361ce6763301ad724b3->leave($__internal_488e17713641d29a9c5f7a8db23079696631b006839be361ce6763301ad724b3_prof);
 
         
-        $__internal_a4c1190cd8a767fc8d2089e526d12c24565d2403f67639f81f26176f4eefb128->leave($__internal_a4c1190cd8a767fc8d2089e526d12c24565d2403f67639f81f26176f4eefb128_prof);
+        $__internal_4ee573c8b1d4872256b877681f0a4a8e2ae88aa4678c5c98292154edde775791->leave($__internal_4ee573c8b1d4872256b877681f0a4a8e2ae88aa4678c5c98292154edde775791_prof);
 
     }
 
@@ -121,7 +139,7 @@ class __TwigTemplate_4917bc7370038e5c6497e6f8cad7b905f87b0ad539a14527204c7172477
 
     public function getDebugInfo()
     {
-        return array (  49 => 4,  40 => 3,  11 => 1,);
+        return array (  95 => 35,  89 => 34,  83 => 33,  54 => 7,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -140,7 +158,7 @@ class __TwigTemplate_4917bc7370038e5c6497e6f8cad7b905f87b0ad539a14527204c7172477
 <div>
     <div>
         <div class=\"row\">
-            <img src=\"/img/ppe/ppe1/doriath.png\"><h3 class=\"skill-title-1\">Projet personnalisé encadré - Doriath</h3>
+            <img src=\"{{asset('img/ppe/ppe1/doriath.png')}}\"><h3 class=\"skill-title-1\">Projet personnalisé encadré - Doriath</h3>
         </div>
         <hr><br>
         <article class=\"card bg-faded p-3\">
@@ -166,9 +184,9 @@ class __TwigTemplate_4917bc7370038e5c6497e6f8cad7b905f87b0ad539a14527204c7172477
         </div>
         <li>Développement d'un site intranet permettant de disposer d'informations afin de mieux gérer les réservation pour le restaurant.</li>
         <li>Développement d'une petite application Java permettant de disposer de statistiques sur l'activité du restaurant.</li>
-        <a target=\"_blank\" href=\"/img/ppe/ppe1/doriath-screen-1.png\"><img src=\"/img/ppe/ppe1/doriath-screen-1.png\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"/img/ppe/ppe1/doriath-screen-2.png\"><img src=\"/img/ppe/ppe1/doriath-screen-2.png\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"/img/ppe/ppe1/doriath-screen-3.png\"><img src=\"/img/ppe/ppe1/doriath-screen-3.png\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"{{asset('img/ppe/ppe1/doriath-screen-1.png')}}\"><img src=\"{{asset('img/ppe/ppe1/doriath-screen-1.png')}}\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"{{asset('img/ppe/ppe1/doriath-screen-2.png')}}\"><img src=\"{{asset('img/ppe/ppe1/doriath-screen-2.png')}}\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"{{asset('img/ppe/ppe1/doriath-screen-3.png')}}\"><img src=\"{{asset('img/ppe/ppe1/doriath-screen-3.png')}}\" class=\"screen-picture\"></a>
         <br>
 
         <div class=\"title-stripes font-italic\">

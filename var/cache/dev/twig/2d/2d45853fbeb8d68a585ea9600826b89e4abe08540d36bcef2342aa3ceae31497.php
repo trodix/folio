@@ -21,36 +21,39 @@ class __TwigTemplate_2308744a7000b0da0e6d1be2d1bae914253a1e76928770256afcee603be
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_0017deae9a649b87efbc7764583ba2988e1a43fd3366fa59148d5163433d0c1b = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_0017deae9a649b87efbc7764583ba2988e1a43fd3366fa59148d5163433d0c1b->enter($__internal_0017deae9a649b87efbc7764583ba2988e1a43fd3366fa59148d5163433d0c1b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/ppe2.html.twig"));
+        $__internal_a7e3c6030960b9cb3aefa8c1eff3ca8f64294d5f13a29cb0c5be12a6d1f243b9 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_a7e3c6030960b9cb3aefa8c1eff3ca8f64294d5f13a29cb0c5be12a6d1f243b9->enter($__internal_a7e3c6030960b9cb3aefa8c1eff3ca8f64294d5f13a29cb0c5be12a6d1f243b9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/ppe2.html.twig"));
 
-        $__internal_d8953b00e41ba081d3e93a68c82a1b6cdab33b1470ffb519e5850b03b4baf900 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_d8953b00e41ba081d3e93a68c82a1b6cdab33b1470ffb519e5850b03b4baf900->enter($__internal_d8953b00e41ba081d3e93a68c82a1b6cdab33b1470ffb519e5850b03b4baf900_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/ppe2.html.twig"));
+        $__internal_8e74a93b6488d0e376823a2f8a35d68332d660df73f7c6aab9683c0321749d1e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8e74a93b6488d0e376823a2f8a35d68332d660df73f7c6aab9683c0321749d1e->enter($__internal_8e74a93b6488d0e376823a2f8a35d68332d660df73f7c6aab9683c0321749d1e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/ppe2.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_0017deae9a649b87efbc7764583ba2988e1a43fd3366fa59148d5163433d0c1b->leave($__internal_0017deae9a649b87efbc7764583ba2988e1a43fd3366fa59148d5163433d0c1b_prof);
+        $__internal_a7e3c6030960b9cb3aefa8c1eff3ca8f64294d5f13a29cb0c5be12a6d1f243b9->leave($__internal_a7e3c6030960b9cb3aefa8c1eff3ca8f64294d5f13a29cb0c5be12a6d1f243b9_prof);
 
         
-        $__internal_d8953b00e41ba081d3e93a68c82a1b6cdab33b1470ffb519e5850b03b4baf900->leave($__internal_d8953b00e41ba081d3e93a68c82a1b6cdab33b1470ffb519e5850b03b4baf900_prof);
+        $__internal_8e74a93b6488d0e376823a2f8a35d68332d660df73f7c6aab9683c0321749d1e->leave($__internal_8e74a93b6488d0e376823a2f8a35d68332d660df73f7c6aab9683c0321749d1e_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_9fdc25e4b5c728d2a7b4f46e8b59e30592cf6f2bed3f35624858d24bee7fa074 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_9fdc25e4b5c728d2a7b4f46e8b59e30592cf6f2bed3f35624858d24bee7fa074->enter($__internal_9fdc25e4b5c728d2a7b4f46e8b59e30592cf6f2bed3f35624858d24bee7fa074_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_56afc6df50d896dca0cbc5230404e26ded999359a2ee2ce040e02a965a8d4074 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_56afc6df50d896dca0cbc5230404e26ded999359a2ee2ce040e02a965a8d4074->enter($__internal_56afc6df50d896dca0cbc5230404e26ded999359a2ee2ce040e02a965a8d4074_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_3475962f97acf890a63dbed13e191203d31b00ef6b292657046284ed43e20be9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_3475962f97acf890a63dbed13e191203d31b00ef6b292657046284ed43e20be9->enter($__internal_3475962f97acf890a63dbed13e191203d31b00ef6b292657046284ed43e20be9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_3df017c48ecef30a00f24ee9abb68a1d73c823bf454049a5331f5444c093b121 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3df017c48ecef30a00f24ee9abb68a1d73c823bf454049a5331f5444c093b121->enter($__internal_3df017c48ecef30a00f24ee9abb68a1d73c823bf454049a5331f5444c093b121_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "
 <div>
     <div>
         <div class=\"row\">
-            <img src=\"/img/ppe/ppe2/logo-gsb-simple.png\"><h3 class=\"skill-title-1\">Galaxy Swiss Bourdin</h3>
+            <img src=\"";
+        // line 8
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe2/logo-gsb-simple.png"), "html", null, true);
+        echo "\"><h3 class=\"skill-title-1\">Galaxy Swiss Bourdin</h3>
         </div><hr>
         <article class=\"card bg-faded p-3\">
             <h3>Contexte</h3>
@@ -95,11 +98,36 @@ class __TwigTemplate_2308744a7000b0da0e6d1be2d1bae914253a1e76928770256afcee603be
             <li><strong>Module Responsable : </strong>Permet la vision de l'activité des visiteurs 
                     rattachés à un secteur géographique sous forme de statistiques diverses.</li>
         </div>
-        <a target=\"_blank\" href=\"/img/ppe/ppe2/accueil.png\"><img src=\"/img/ppe/ppe2/accueil.png\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"/img/ppe/ppe2/fenetre1.png\"><img src=\"/img/ppe/ppe2/fenetre1.png\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"/img/ppe/ppe2/fenetre2.png\"><img src=\"/img/ppe/ppe2/fenetre2.png\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"/img/ppe/ppe2/fenetre3.png\"><img src=\"/img/ppe/ppe2/fenetre3.png\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"/img/ppe/ppe2/fenetre4.png\"><img src=\"/img/ppe/ppe2/fenetre4.png\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"";
+        // line 53
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe2/accueil.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe2/accueil.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"";
+        // line 54
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe2/fenetre1.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe2/fenetre1.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"";
+        // line 55
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe2/fenetre2.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe2/fenetre2.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"";
+        // line 56
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe2/fenetre3.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe2/fenetre3.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"";
+        // line 57
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe2/fenetre4.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/ppe/ppe2/fenetre4.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
     </div><hr>
     <div class=\"title-stripes font-italic\">
             <p><strong>Compétences mises en oeuvre</strong></p>
@@ -145,10 +173,10 @@ class __TwigTemplate_2308744a7000b0da0e6d1be2d1bae914253a1e76928770256afcee603be
 
 ";
         
-        $__internal_3475962f97acf890a63dbed13e191203d31b00ef6b292657046284ed43e20be9->leave($__internal_3475962f97acf890a63dbed13e191203d31b00ef6b292657046284ed43e20be9_prof);
+        $__internal_3df017c48ecef30a00f24ee9abb68a1d73c823bf454049a5331f5444c093b121->leave($__internal_3df017c48ecef30a00f24ee9abb68a1d73c823bf454049a5331f5444c093b121_prof);
 
         
-        $__internal_9fdc25e4b5c728d2a7b4f46e8b59e30592cf6f2bed3f35624858d24bee7fa074->leave($__internal_9fdc25e4b5c728d2a7b4f46e8b59e30592cf6f2bed3f35624858d24bee7fa074_prof);
+        $__internal_56afc6df50d896dca0cbc5230404e26ded999359a2ee2ce040e02a965a8d4074->leave($__internal_56afc6df50d896dca0cbc5230404e26ded999359a2ee2ce040e02a965a8d4074_prof);
 
     }
 
@@ -164,7 +192,7 @@ class __TwigTemplate_2308744a7000b0da0e6d1be2d1bae914253a1e76928770256afcee603be
 
     public function getDebugInfo()
     {
-        return array (  49 => 4,  40 => 3,  11 => 1,);
+        return array (  127 => 57,  121 => 56,  115 => 55,  109 => 54,  103 => 53,  55 => 8,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -184,7 +212,7 @@ class __TwigTemplate_2308744a7000b0da0e6d1be2d1bae914253a1e76928770256afcee603be
 <div>
     <div>
         <div class=\"row\">
-            <img src=\"/img/ppe/ppe2/logo-gsb-simple.png\"><h3 class=\"skill-title-1\">Galaxy Swiss Bourdin</h3>
+            <img src=\"{{asset('img/ppe/ppe2/logo-gsb-simple.png')}}\"><h3 class=\"skill-title-1\">Galaxy Swiss Bourdin</h3>
         </div><hr>
         <article class=\"card bg-faded p-3\">
             <h3>Contexte</h3>
@@ -229,11 +257,11 @@ class __TwigTemplate_2308744a7000b0da0e6d1be2d1bae914253a1e76928770256afcee603be
             <li><strong>Module Responsable : </strong>Permet la vision de l'activité des visiteurs 
                     rattachés à un secteur géographique sous forme de statistiques diverses.</li>
         </div>
-        <a target=\"_blank\" href=\"/img/ppe/ppe2/accueil.png\"><img src=\"/img/ppe/ppe2/accueil.png\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"/img/ppe/ppe2/fenetre1.png\"><img src=\"/img/ppe/ppe2/fenetre1.png\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"/img/ppe/ppe2/fenetre2.png\"><img src=\"/img/ppe/ppe2/fenetre2.png\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"/img/ppe/ppe2/fenetre3.png\"><img src=\"/img/ppe/ppe2/fenetre3.png\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"/img/ppe/ppe2/fenetre4.png\"><img src=\"/img/ppe/ppe2/fenetre4.png\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"{{asset('img/ppe/ppe2/accueil.png')}}\"><img src=\"{{asset('img/ppe/ppe2/accueil.png')}}\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"{{asset('img/ppe/ppe2/fenetre1.png')}}\"><img src=\"{{asset('img/ppe/ppe2/fenetre1.png')}}\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"{{asset('img/ppe/ppe2/fenetre2.png')}}\"><img src=\"{{asset('img/ppe/ppe2/fenetre2.png')}}\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"{{asset('img/ppe/ppe2/fenetre3.png')}}\"><img src=\"{{asset('img/ppe/ppe2/fenetre3.png')}}\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"{{asset('img/ppe/ppe2/fenetre4.png')}}\"><img src=\"{{asset('img/ppe/ppe2/fenetre4.png')}}\" class=\"screen-picture\"></a>
     </div><hr>
     <div class=\"title-stripes font-italic\">
             <p><strong>Compétences mises en oeuvre</strong></p>
