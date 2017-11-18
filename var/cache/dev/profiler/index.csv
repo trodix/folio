@@ -659,3 +659,12 @@ cb26e2,127.0.0.1,GET,http://localhost:8000/css/bootstrap.min.css.map,1511028148,
 62e836,127.0.0.1,GET,http://localhost:8000/veille,1511029048,,200
 fc699c,127.0.0.1,GET,http://localhost:8000/css/bootstrap.min.css.map,1511029059,5f2acf,200
 5f2acf,127.0.0.1,GET,http://localhost:8000/css/bootstrap.min.css.map,1511029059,,404
+142588,127.0.0.1,GET,http://localhost:8000/contact,1511038161,,200
+fc2e7e,127.0.0.1,GET,http://localhost:8000/contact,1511038209,aaafc9,200
+aaafc9,127.0.0.1,POST,http://localhost:8000/contact,1511038209,,500
+404866,127.0.0.1,GET,http://localhost:8000/contact,1511038438,f90d53,200
+f90d53,127.0.0.1,POST,http://localhost:8000/contact,1511038438,,500
+b67a19,127.0.0.1,POST,http://localhost:8000/contact,1511038738,,200
+e284b7,127.0.0.1,POST,http://localhost:8000/contact,1511039739,,200
+01d8ba,127.0.0.1,POST,http://localhost:8000/contact,1511039864,,200
+39317b,127.0.0.1,POST,http://localhost:8000/contact,1511039881,,200

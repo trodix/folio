@@ -9,19 +9,19 @@
             <div class="row">
                 <div class="col" style="margin-bottom: 0;">
                     <div class="form-group">
-                        <input class="form-control" id="contactNom" name="contact[nom]" placeholder="Nom" required="required" type="text">
+                        <input class="form-control" id="contactNom" name="contact[lastName]" placeholder="Nom" required="required" type="text">
                     </div>
                 </div>
                 <div class="col" style="margin-bottom: 0;">
                     <div class="form-group">
-                        <input class="form-control" id="contactPrenom" name="contact[prenom]" placeholder="Prénom" required="required" type="text">
+                        <input class="form-control" id="contactPrenom" name="contact[firstName]" placeholder="Prénom" required="required" type="text">
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col" style="margin-bottom: 0;">
                     <div class="form-group">
-                        <input class="form-control" id="contactEmail" name="contact[email]" placeholder="email@domain.com" required="required" type="email">
+                        <input class="form-control" id="contactEmail" name="contact[mail]" placeholder="email@domain.com" required="required" type="email">
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
             <div class="row">
                 <div class="col">
                     <div class="form-group">
-                        <button class="btn btn-primary" type="submit">Envoyer</button>
+                        <input class="btn btn-primary" type="submit" value="Envoyer">
                     </div>
                 </div>
             </div>
@@ -50,6 +50,12 @@
         <img src="{{asset('img/email.png')}}">
     </div>
 </div>
+
+{% if reponse.message != "" %}
+<div class="alert alert-success">
+    {{ reponse.message }}
+</div>
+{% endif %}
 
 {% endblock %}
 
