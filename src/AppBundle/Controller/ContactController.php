@@ -43,6 +43,7 @@ class ContactController extends Controller
             $formContact->setFirstName($data['contact']['firstName']);
             $formContact->setMail($data['contact']['mail']);
             $formContact->setMessage($data['contact']['message']);
+            $formContact->setDate(new \DateTime(date('Y-m-d H:i:s')));
 
             $em = $this->getDoctrine()->getManager();
             $em->persist($formContact);
