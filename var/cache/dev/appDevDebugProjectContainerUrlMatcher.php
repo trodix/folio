@@ -103,9 +103,17 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        // contact
-        if ('/contact' === $pathinfo) {
-            return array (  '_controller' => 'AppBundle\\Controller\\ContactController::contactAction',  '_route' => 'contact',);
+        elseif (0 === strpos($pathinfo, '/contact')) {
+            // contact
+            if ('/contact' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\ContactController::contactAction',  '_route' => 'contact',);
+            }
+
+            // contactAjax
+            if ('/contact/ajax' === $pathinfo) {
+                return array (  '_controller' => 'AppBundle\\Controller\\ContactController::contactAjaxAction',  '_route' => 'contactAjax',);
+            }
+
         }
 
         // homepage

@@ -3,9 +3,9 @@
 {% block body %}
 
 <h1 class="skill-title-1">Me contacter</h1>
-<div class="row">
+<div class="row" id="contact-form-contener">
     <div class="col-sm-12 col-md-6">
-        <form accept-charset="UTF-8" action="/contact" class="" method="post">
+        <form accept-charset="UTF-8" method="post" id="form-contact">
             <div class="row">
                 <div class="col" style="margin-bottom: 0;">
                     <div class="form-group">
@@ -40,7 +40,7 @@
             <div class="row">
                 <div class="col">
                     <div class="form-group">
-                        <input class="btn btn-primary" type="submit" value="Envoyer">
+                        <input class="btn btn-primary" type="button" name="contact[submit]" value="Envoyer" onclick="sendForm($(this).value());">
                     </div>
                 </div>
             </div>
@@ -51,14 +51,9 @@
     </div>
 </div>
 
-{% if reponse.message != "" %}
-<div class="alert alert-success">
-    {{ reponse.message }}
-</div>
-{% endif %}
+    {% block javascripts %}
+        
+    {% endblock %}
 
 {% endblock %}
-
-{% block javascripts %}
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-{% endblock %}
+    

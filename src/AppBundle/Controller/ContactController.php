@@ -6,6 +6,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use AppBundle\Entity\Contact;
+use Symfony\Component\HttpFoundation\JsonResponse;
 
 class ContactController extends Controller
 {
@@ -17,7 +18,6 @@ class ContactController extends Controller
         $reponse['message'] = "";
         $data = $request->request->all();
         $server = $request->server;
-        //var_dump($request);
 
         //*****************reCAPTCHA**************************
         // Ma clé privée
@@ -55,5 +55,50 @@ class ContactController extends Controller
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
             'reponse' => $reponse
         ]);
+    }
+
+    /**
+     * @Route("/contact/ajax", name="contactAjax")
+     */
+    public function contactAjaxAction(Request $request)
+    {
+        $data = $request->request->all();
+        if ($request->isMethod('POST')) {
+            if (isset($data['contact'], $data['contact']['submit'])) {
+                //insertion
+                $formContact = new Contact();
+                $formContact->setLastName($data['contact']['lastName']);
+                $formContact->setFirstName($data['contact']['firstName']);
+                $formContact->setMail($data['contact']['mail']);
+                $formContact->setMessage($data['contact']['message']);
+                $formContact->setDate(new \DateTime(date('Y-m-d H:i:s')));
+
+                $em = $this->getDoctrine()->getManager();
+                $em->persist($formContact);
+                $em->flush();
+
+                //envoi des données JSON en front
+                $response = new JsonResponse();
+                $response->setStatusCode(200);
+                //ajout de données éventuelles
+                $response->setData([
+                    'successMessage' => "Votre message a bien été envoyé"
+                ]);
+                return $response;
+            }else{
+                //form non valide
+                //envoi des données d'erreurs JSON en front
+                $response = new JsonResponse();
+                $response->setStatusCode(200);
+                $response->setData([
+                    'errorMessage' => "Il semblerait qu'il y ait une erreur au niveau du formulaire"
+                ]);
+                return $response;
+            }
+        }
+        // replace this example code with whatever you need
+        return $this->render('folio/contact.html.twig', [
+        'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+        ]);     
     }
 }
