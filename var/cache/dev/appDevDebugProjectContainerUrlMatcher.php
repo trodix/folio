@@ -103,17 +103,14 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        elseif (0 === strpos($pathinfo, '/contact')) {
-            // contact
-            if ('/contact' === $pathinfo) {
-                return array (  '_controller' => 'AppBundle\\Controller\\ContactController::contactAction',  '_route' => 'contact',);
-            }
+        // contact
+        if ('/contact' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\ContactController::contactAction',  '_route' => 'contact',);
+        }
 
-            // contactAjax
-            if ('/contact/ajax' === $pathinfo) {
-                return array (  '_controller' => 'AppBundle\\Controller\\ContactController::contactAjaxAction',  '_route' => 'contactAjax',);
-            }
-
+        // cv
+        if ('/cv' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::cvAction',  '_route' => 'cv',);
         }
 
         // homepage
@@ -146,6 +143,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         // veille
         if ('/veille' === $pathinfo) {
             return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::veilleAction',  '_route' => 'veille',);
+        }
+
+        // grille
+        if ('/grille' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::grilleAction',  '_route' => 'grille',);
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();

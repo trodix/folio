@@ -64,4 +64,26 @@ class DefaultController extends Controller
             'articles' => $articles
         ]);
     }
+
+     /**
+     * @Route("/grille", name="grille")
+     */
+    public function grilleAction(Request $request)
+    {
+        
+        return $this->render('folio/grille.html.twig', [
+            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+        ]);
+    }
+
+    /**
+     * @Route("/cv", name="cv")
+     */
+    public function cvAction(Request $request)
+    {
+        
+        return $this->render('folio/cv.html.twig', [
+            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+        ]);
+    }
 }
