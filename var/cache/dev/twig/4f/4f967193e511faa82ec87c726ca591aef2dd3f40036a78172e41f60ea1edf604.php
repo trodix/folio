@@ -21,62 +21,66 @@ class __TwigTemplate_28c7fd0cb397fe6f827c877505fd2de822dc45e8305d9892e2d75534fc0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_e11563339efaaea87c14cf66d058747bcc954e21e9979e9a2c6e2e0b7332f615 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e11563339efaaea87c14cf66d058747bcc954e21e9979e9a2c6e2e0b7332f615->enter($__internal_e11563339efaaea87c14cf66d058747bcc954e21e9979e9a2c6e2e0b7332f615_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/cv.html.twig"));
+        $__internal_c49a773fe1d1db852df0782478a44e8e693c17354679b3d479b10b30be39f5f7 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_c49a773fe1d1db852df0782478a44e8e693c17354679b3d479b10b30be39f5f7->enter($__internal_c49a773fe1d1db852df0782478a44e8e693c17354679b3d479b10b30be39f5f7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/cv.html.twig"));
 
-        $__internal_cba168c0f7dfd1955be03531c4c5bcc70d1689f4a97e63419a958378158eb7b8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_cba168c0f7dfd1955be03531c4c5bcc70d1689f4a97e63419a958378158eb7b8->enter($__internal_cba168c0f7dfd1955be03531c4c5bcc70d1689f4a97e63419a958378158eb7b8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/cv.html.twig"));
+        $__internal_25395494ff0d26880a2c6b230c5fbafa663bceddb307f6bc7a16b657cc359327 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_25395494ff0d26880a2c6b230c5fbafa663bceddb307f6bc7a16b657cc359327->enter($__internal_25395494ff0d26880a2c6b230c5fbafa663bceddb307f6bc7a16b657cc359327_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/cv.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_e11563339efaaea87c14cf66d058747bcc954e21e9979e9a2c6e2e0b7332f615->leave($__internal_e11563339efaaea87c14cf66d058747bcc954e21e9979e9a2c6e2e0b7332f615_prof);
+        $__internal_c49a773fe1d1db852df0782478a44e8e693c17354679b3d479b10b30be39f5f7->leave($__internal_c49a773fe1d1db852df0782478a44e8e693c17354679b3d479b10b30be39f5f7_prof);
 
         
-        $__internal_cba168c0f7dfd1955be03531c4c5bcc70d1689f4a97e63419a958378158eb7b8->leave($__internal_cba168c0f7dfd1955be03531c4c5bcc70d1689f4a97e63419a958378158eb7b8_prof);
+        $__internal_25395494ff0d26880a2c6b230c5fbafa663bceddb307f6bc7a16b657cc359327->leave($__internal_25395494ff0d26880a2c6b230c5fbafa663bceddb307f6bc7a16b657cc359327_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_805e8782e375e60ca739204e5c2ff9ebac2c0bebcd472eb1ce353b5fad25fc67 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_805e8782e375e60ca739204e5c2ff9ebac2c0bebcd472eb1ce353b5fad25fc67->enter($__internal_805e8782e375e60ca739204e5c2ff9ebac2c0bebcd472eb1ce353b5fad25fc67_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_4429f3a4aa5568c8cbca6e1e3e521d2af17dffb113552c037222081bbcf43f01 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_4429f3a4aa5568c8cbca6e1e3e521d2af17dffb113552c037222081bbcf43f01->enter($__internal_4429f3a4aa5568c8cbca6e1e3e521d2af17dffb113552c037222081bbcf43f01_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_bf5af58979ec3cd1fbed9a56260d1c2ae37a4a2708e7e3d524abc61835fe5605 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_bf5af58979ec3cd1fbed9a56260d1c2ae37a4a2708e7e3d524abc61835fe5605->enter($__internal_bf5af58979ec3cd1fbed9a56260d1c2ae37a4a2708e7e3d524abc61835fe5605_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_174f7786c7f21b423bad2051a0d08908ef08a6dfd61eec8d03345750cb854771 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_174f7786c7f21b423bad2051a0d08908ef08a6dfd61eec8d03345750cb854771->enter($__internal_174f7786c7f21b423bad2051a0d08908ef08a6dfd61eec8d03345750cb854771_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
-        echo "<img src=\"";
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl(""), "html", null, true);
+        echo "    <div class=\"row cv-header\">
+        <div>
+            <img class=\"rounded-circle photo-profil\" src=\"";
+        // line 6
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/photo-profil.png"), "html", null, true);
         echo "\">
-    <h1 class=\"cv-nom\">Sébastien Vallet</h2>
+        </div>
+        <div class=\"col\">
+            <h1 class=\"cv-nom\">Sébastien Vallet</h1>
+            <ul class=\"cv-header\">
+                <li>Né le 18/09/1997</li>
+                <li>Titulaire du permis B</li>
+            </ul>
+        </div>
+    </div><hr>
     <div class=\"competences-contener\">
         <div class=\"cv-section\">
-            <h2>Ma formation</h2>
+            <h2 class=\"cv-titre-2\">Ma formation</h2>
             <ul>
                 <li>2016 / 2018 BTS SIO (services informatiques aux organisations) option SLAM (Solutions Logicielles et Applications Métiers)</li>
                 <li>2016 Baccalauréat scientifique option sciences de l'ingenieur</li>
             </ul>
-        </div>
+        </div><hr>
         <div class=\"cv-section\">
-            <h2>Mon expérience</h2>
+            <h2 class=\"cv-titre-2\">Mon expérience</h2>
             <ul>
-                <li>2017 - Stage de 5 semaines en développement à Acta Mobilier, Monéteau</li>
+                <li>2017 - Stage de 5 semaines en développement à Acta Mobilier, Monéteau (89470)</li>
                 <li>2016 - Cours d'initiation à la bureautique, juillet - août.</li>
             </ul>
-        </div>
+        </div><hr>
         <div class=\"cv-section\">
-            <h2>Mon expérience</h2>
-            <ul>
-                <li>2017 - Stage de 5 semaines en développement à Acta Mobilier, Monéteau</li>
-                <li>2016 - Cours d'initiation à la bureautique, juillet - août.</li>
-            </ul>
-        </div>
-        <div class=\"cv-section\">
-            <h2>Mes compétences</h2>
+            <h2 class=\"cv-titre-2\">Mes compétences</h2>
             <div class=\"row\">
                 <div class=\"col\">
-                    <h4>Web</h4>
+                    <h4 class=\"cv-titre-4\">Web</h4>
                     <ul>
                         <li>HTML / CSS</li>
                         <li>PHP</li>
@@ -89,7 +93,7 @@ class __TwigTemplate_28c7fd0cb397fe6f827c877505fd2de822dc45e8305d9892e2d75534fc0
                     </ul>
                 </div>
                 <div class=\"col\">
-                    <h4>Autres langages</h4>
+                    <h4 class=\"cv-titre-4\">Autres langages</h4>
                     <ul>
                         <li>MySql</li>
                         <li>Java</li>
@@ -99,7 +103,7 @@ class __TwigTemplate_28c7fd0cb397fe6f827c877505fd2de822dc45e8305d9892e2d75534fc0
                     </ul>
                 </div>
                  <div class=\"col\">
-                    <h4>Réseau</h4>
+                    <h4 class=\"cv-titre-4\">Réseau</h4>
                     <ul>
                         <li>Configuration d'un serveur DNS (bind)</li>
                         <li>Configuration d'un serveur VPN (openvpn)</li>
@@ -108,7 +112,7 @@ class __TwigTemplate_28c7fd0cb397fe6f827c877505fd2de822dc45e8305d9892e2d75534fc0
                     </ul>
                 </div>
                 <div class=\"col\">
-                    <h4>Mes outils</h4>
+                    <h4 class=\"cv-titre-4\">Mes outils</h4>
                     <ul>
                         <li>Archlinux (OS principal)</li>
                         <li>Git</li>
@@ -117,27 +121,27 @@ class __TwigTemplate_28c7fd0cb397fe6f827c877505fd2de822dc45e8305d9892e2d75534fc0
                         <li>Netbeans</li>
                     </ul>
                 </div>
-            </div>
+            </div><hr>
             <div>
-                <h3>Mes langues</h3>
+                <h2 class=\"cv-titre-2\">Mes langues</h3>
                 <ul>
                     <li>Anglais : niveau B2 + langage orienté professionnel</li>
                 </ul>
-            </div>
+            </div><hr>
             <div>
-                <h3>Mes hobbies</h3>
+                <h2 class=\"cv-titre-2\">Mes hobbies</h3>
                 <ul>
-                    <li>Le cinéma, les films, les séries, en particulié la science fiction (Marvel, DC'Comics) et en particulié en VO</li>
+                    <li>Le cinéma, les films, les séries, en particulié la science fiction (Marvel, DC'Comics) et en VO</li>
                 </ul>
             </div>
         </div>
     </div>
 ";
         
-        $__internal_bf5af58979ec3cd1fbed9a56260d1c2ae37a4a2708e7e3d524abc61835fe5605->leave($__internal_bf5af58979ec3cd1fbed9a56260d1c2ae37a4a2708e7e3d524abc61835fe5605_prof);
+        $__internal_174f7786c7f21b423bad2051a0d08908ef08a6dfd61eec8d03345750cb854771->leave($__internal_174f7786c7f21b423bad2051a0d08908ef08a6dfd61eec8d03345750cb854771_prof);
 
         
-        $__internal_805e8782e375e60ca739204e5c2ff9ebac2c0bebcd472eb1ce353b5fad25fc67->leave($__internal_805e8782e375e60ca739204e5c2ff9ebac2c0bebcd472eb1ce353b5fad25fc67_prof);
+        $__internal_4429f3a4aa5568c8cbca6e1e3e521d2af17dffb113552c037222081bbcf43f01->leave($__internal_4429f3a4aa5568c8cbca6e1e3e521d2af17dffb113552c037222081bbcf43f01_prof);
 
     }
 
@@ -153,7 +157,7 @@ class __TwigTemplate_28c7fd0cb397fe6f827c877505fd2de822dc45e8305d9892e2d75534fc0
 
     public function getDebugInfo()
     {
-        return array (  49 => 4,  40 => 3,  11 => 1,);
+        return array (  53 => 6,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -169,35 +173,38 @@ class __TwigTemplate_28c7fd0cb397fe6f827c877505fd2de822dc45e8305d9892e2d75534fc0
         return new Twig_Source("{% extends 'base.html.twig' %}
 
 {% block body %}
-<img src=\"{{asset('')}}\">
-    <h1 class=\"cv-nom\">Sébastien Vallet</h2>
+    <div class=\"row cv-header\">
+        <div>
+            <img class=\"rounded-circle photo-profil\" src=\"{{asset('img/photo-profil.png')}}\">
+        </div>
+        <div class=\"col\">
+            <h1 class=\"cv-nom\">Sébastien Vallet</h1>
+            <ul class=\"cv-header\">
+                <li>Né le 18/09/1997</li>
+                <li>Titulaire du permis B</li>
+            </ul>
+        </div>
+    </div><hr>
     <div class=\"competences-contener\">
         <div class=\"cv-section\">
-            <h2>Ma formation</h2>
+            <h2 class=\"cv-titre-2\">Ma formation</h2>
             <ul>
                 <li>2016 / 2018 BTS SIO (services informatiques aux organisations) option SLAM (Solutions Logicielles et Applications Métiers)</li>
                 <li>2016 Baccalauréat scientifique option sciences de l'ingenieur</li>
             </ul>
-        </div>
+        </div><hr>
         <div class=\"cv-section\">
-            <h2>Mon expérience</h2>
+            <h2 class=\"cv-titre-2\">Mon expérience</h2>
             <ul>
-                <li>2017 - Stage de 5 semaines en développement à Acta Mobilier, Monéteau</li>
+                <li>2017 - Stage de 5 semaines en développement à Acta Mobilier, Monéteau (89470)</li>
                 <li>2016 - Cours d'initiation à la bureautique, juillet - août.</li>
             </ul>
-        </div>
+        </div><hr>
         <div class=\"cv-section\">
-            <h2>Mon expérience</h2>
-            <ul>
-                <li>2017 - Stage de 5 semaines en développement à Acta Mobilier, Monéteau</li>
-                <li>2016 - Cours d'initiation à la bureautique, juillet - août.</li>
-            </ul>
-        </div>
-        <div class=\"cv-section\">
-            <h2>Mes compétences</h2>
+            <h2 class=\"cv-titre-2\">Mes compétences</h2>
             <div class=\"row\">
                 <div class=\"col\">
-                    <h4>Web</h4>
+                    <h4 class=\"cv-titre-4\">Web</h4>
                     <ul>
                         <li>HTML / CSS</li>
                         <li>PHP</li>
@@ -210,7 +217,7 @@ class __TwigTemplate_28c7fd0cb397fe6f827c877505fd2de822dc45e8305d9892e2d75534fc0
                     </ul>
                 </div>
                 <div class=\"col\">
-                    <h4>Autres langages</h4>
+                    <h4 class=\"cv-titre-4\">Autres langages</h4>
                     <ul>
                         <li>MySql</li>
                         <li>Java</li>
@@ -220,7 +227,7 @@ class __TwigTemplate_28c7fd0cb397fe6f827c877505fd2de822dc45e8305d9892e2d75534fc0
                     </ul>
                 </div>
                  <div class=\"col\">
-                    <h4>Réseau</h4>
+                    <h4 class=\"cv-titre-4\">Réseau</h4>
                     <ul>
                         <li>Configuration d'un serveur DNS (bind)</li>
                         <li>Configuration d'un serveur VPN (openvpn)</li>
@@ -229,7 +236,7 @@ class __TwigTemplate_28c7fd0cb397fe6f827c877505fd2de822dc45e8305d9892e2d75534fc0
                     </ul>
                 </div>
                 <div class=\"col\">
-                    <h4>Mes outils</h4>
+                    <h4 class=\"cv-titre-4\">Mes outils</h4>
                     <ul>
                         <li>Archlinux (OS principal)</li>
                         <li>Git</li>
@@ -238,17 +245,17 @@ class __TwigTemplate_28c7fd0cb397fe6f827c877505fd2de822dc45e8305d9892e2d75534fc0
                         <li>Netbeans</li>
                     </ul>
                 </div>
-            </div>
+            </div><hr>
             <div>
-                <h3>Mes langues</h3>
+                <h2 class=\"cv-titre-2\">Mes langues</h3>
                 <ul>
                     <li>Anglais : niveau B2 + langage orienté professionnel</li>
                 </ul>
-            </div>
+            </div><hr>
             <div>
-                <h3>Mes hobbies</h3>
+                <h2 class=\"cv-titre-2\">Mes hobbies</h3>
                 <ul>
-                    <li>Le cinéma, les films, les séries, en particulié la science fiction (Marvel, DC'Comics) et en particulié en VO</li>
+                    <li>Le cinéma, les films, les séries, en particulié la science fiction (Marvel, DC'Comics) et en VO</li>
                 </ul>
             </div>
         </div>

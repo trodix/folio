@@ -1,35 +1,38 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-<img src="{{asset('')}}">
-    <h1 class="cv-nom">Sébastien Vallet</h2>
+    <div class="row cv-header">
+        <div>
+            <img class="rounded-circle photo-profil" src="{{asset('img/photo-profil.png')}}">
+        </div>
+        <div class="col">
+            <h1 class="cv-nom">Sébastien Vallet</h1>
+            <ul class="cv-header">
+                <li>Né le 18/09/1997</li>
+                <li>Titulaire du permis B</li>
+            </ul>
+        </div>
+    </div><hr>
     <div class="competences-contener">
         <div class="cv-section">
-            <h2>Ma formation</h2>
+            <h2 class="cv-titre-2">Ma formation</h2>
             <ul>
                 <li>2016 / 2018 BTS SIO (services informatiques aux organisations) option SLAM (Solutions Logicielles et Applications Métiers)</li>
                 <li>2016 Baccalauréat scientifique option sciences de l'ingenieur</li>
             </ul>
-        </div>
+        </div><hr>
         <div class="cv-section">
-            <h2>Mon expérience</h2>
+            <h2 class="cv-titre-2">Mon expérience</h2>
             <ul>
-                <li>2017 - Stage de 5 semaines en développement à Acta Mobilier, Monéteau</li>
+                <li>2017 - Stage de 5 semaines en développement à Acta Mobilier, Monéteau (89470)</li>
                 <li>2016 - Cours d'initiation à la bureautique, juillet - août.</li>
             </ul>
-        </div>
+        </div><hr>
         <div class="cv-section">
-            <h2>Mon expérience</h2>
-            <ul>
-                <li>2017 - Stage de 5 semaines en développement à Acta Mobilier, Monéteau</li>
-                <li>2016 - Cours d'initiation à la bureautique, juillet - août.</li>
-            </ul>
-        </div>
-        <div class="cv-section">
-            <h2>Mes compétences</h2>
+            <h2 class="cv-titre-2">Mes compétences</h2>
             <div class="row">
                 <div class="col">
-                    <h4>Web</h4>
+                    <h4 class="cv-titre-4">Web</h4>
                     <ul>
                         <li>HTML / CSS</li>
                         <li>PHP</li>
@@ -42,7 +45,7 @@
                     </ul>
                 </div>
                 <div class="col">
-                    <h4>Autres langages</h4>
+                    <h4 class="cv-titre-4">Autres langages</h4>
                     <ul>
                         <li>MySql</li>
                         <li>Java</li>
@@ -52,7 +55,7 @@
                     </ul>
                 </div>
                  <div class="col">
-                    <h4>Réseau</h4>
+                    <h4 class="cv-titre-4">Réseau</h4>
                     <ul>
                         <li>Configuration d'un serveur DNS (bind)</li>
                         <li>Configuration d'un serveur VPN (openvpn)</li>
@@ -61,7 +64,7 @@
                     </ul>
                 </div>
                 <div class="col">
-                    <h4>Mes outils</h4>
+                    <h4 class="cv-titre-4">Mes outils</h4>
                     <ul>
                         <li>Archlinux (OS principal)</li>
                         <li>Git</li>
@@ -70,17 +73,17 @@
                         <li>Netbeans</li>
                     </ul>
                 </div>
-            </div>
+            </div><hr>
             <div>
-                <h3>Mes langues</h3>
+                <h2 class="cv-titre-2">Mes langues</h3>
                 <ul>
                     <li>Anglais : niveau B2 + langage orienté professionnel</li>
                 </ul>
-            </div>
+            </div><hr>
             <div>
-                <h3>Mes hobbies</h3>
+                <h2 class="cv-titre-2">Mes hobbies</h3>
                 <ul>
-                    <li>Le cinéma, les films, les séries, en particulié la science fiction (Marvel, DC'Comics) et en particulié en VO</li>
+                    <li>Le cinéma, les films, les séries, en particulié la science fiction (Marvel, DC'Comics) et en VO</li>
                 </ul>
             </div>
         </div>
