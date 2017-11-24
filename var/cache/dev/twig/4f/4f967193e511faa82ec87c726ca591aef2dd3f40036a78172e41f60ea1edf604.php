@@ -21,127 +21,42 @@ class __TwigTemplate_28c7fd0cb397fe6f827c877505fd2de822dc45e8305d9892e2d75534fc0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_c49a773fe1d1db852df0782478a44e8e693c17354679b3d479b10b30be39f5f7 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_c49a773fe1d1db852df0782478a44e8e693c17354679b3d479b10b30be39f5f7->enter($__internal_c49a773fe1d1db852df0782478a44e8e693c17354679b3d479b10b30be39f5f7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/cv.html.twig"));
+        $__internal_d962d1d3a3e277a1bdfefea7539eb9454e285e3e4ffc5943aeb3ad3ac4b11bd8 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_d962d1d3a3e277a1bdfefea7539eb9454e285e3e4ffc5943aeb3ad3ac4b11bd8->enter($__internal_d962d1d3a3e277a1bdfefea7539eb9454e285e3e4ffc5943aeb3ad3ac4b11bd8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/cv.html.twig"));
 
-        $__internal_25395494ff0d26880a2c6b230c5fbafa663bceddb307f6bc7a16b657cc359327 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_25395494ff0d26880a2c6b230c5fbafa663bceddb307f6bc7a16b657cc359327->enter($__internal_25395494ff0d26880a2c6b230c5fbafa663bceddb307f6bc7a16b657cc359327_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/cv.html.twig"));
+        $__internal_635f3828ab3eb627dacd45abdb8d35823299a1f1a285c9ba55b48d35c13ca291 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_635f3828ab3eb627dacd45abdb8d35823299a1f1a285c9ba55b48d35c13ca291->enter($__internal_635f3828ab3eb627dacd45abdb8d35823299a1f1a285c9ba55b48d35c13ca291_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/cv.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_c49a773fe1d1db852df0782478a44e8e693c17354679b3d479b10b30be39f5f7->leave($__internal_c49a773fe1d1db852df0782478a44e8e693c17354679b3d479b10b30be39f5f7_prof);
+        $__internal_d962d1d3a3e277a1bdfefea7539eb9454e285e3e4ffc5943aeb3ad3ac4b11bd8->leave($__internal_d962d1d3a3e277a1bdfefea7539eb9454e285e3e4ffc5943aeb3ad3ac4b11bd8_prof);
 
         
-        $__internal_25395494ff0d26880a2c6b230c5fbafa663bceddb307f6bc7a16b657cc359327->leave($__internal_25395494ff0d26880a2c6b230c5fbafa663bceddb307f6bc7a16b657cc359327_prof);
+        $__internal_635f3828ab3eb627dacd45abdb8d35823299a1f1a285c9ba55b48d35c13ca291->leave($__internal_635f3828ab3eb627dacd45abdb8d35823299a1f1a285c9ba55b48d35c13ca291_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_4429f3a4aa5568c8cbca6e1e3e521d2af17dffb113552c037222081bbcf43f01 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_4429f3a4aa5568c8cbca6e1e3e521d2af17dffb113552c037222081bbcf43f01->enter($__internal_4429f3a4aa5568c8cbca6e1e3e521d2af17dffb113552c037222081bbcf43f01_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_eda00fbffcfa09d921beb8fbc73bcdea77088884cb83a49dd11356cb45c533e0 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_eda00fbffcfa09d921beb8fbc73bcdea77088884cb83a49dd11356cb45c533e0->enter($__internal_eda00fbffcfa09d921beb8fbc73bcdea77088884cb83a49dd11356cb45c533e0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_174f7786c7f21b423bad2051a0d08908ef08a6dfd61eec8d03345750cb854771 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_174f7786c7f21b423bad2051a0d08908ef08a6dfd61eec8d03345750cb854771->enter($__internal_174f7786c7f21b423bad2051a0d08908ef08a6dfd61eec8d03345750cb854771_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_96250c26021637c14efba9290e8491d25bfacb5987dae4850f8c1850311649cf = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_96250c26021637c14efba9290e8491d25bfacb5987dae4850f8c1850311649cf->enter($__internal_96250c26021637c14efba9290e8491d25bfacb5987dae4850f8c1850311649cf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
-        echo "    <div class=\"row cv-header\">
-        <div>
-            <img class=\"rounded-circle photo-profil\" src=\"";
-        // line 6
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/photo-profil.png"), "html", null, true);
-        echo "\">
-        </div>
-        <div class=\"col\">
-            <h1 class=\"cv-nom\">Sébastien Vallet</h1>
-            <ul class=\"cv-header\">
-                <li>Né le 18/09/1997</li>
-                <li>Titulaire du permis B</li>
-            </ul>
-        </div>
-    </div><hr>
-    <div class=\"competences-contener\">
-        <div class=\"cv-section\">
-            <h2 class=\"cv-titre-2\">Ma formation</h2>
-            <ul>
-                <li>2016 / 2018 BTS SIO (services informatiques aux organisations) option SLAM (Solutions Logicielles et Applications Métiers)</li>
-                <li>2016 Baccalauréat scientifique option sciences de l'ingenieur</li>
-            </ul>
-        </div><hr>
-        <div class=\"cv-section\">
-            <h2 class=\"cv-titre-2\">Mon expérience</h2>
-            <ul>
-                <li>2017 - Stage de 5 semaines en développement à Acta Mobilier, Monéteau (89470)</li>
-                <li>2016 - Cours d'initiation à la bureautique, juillet - août.</li>
-            </ul>
-        </div><hr>
-        <div class=\"cv-section\">
-            <h2 class=\"cv-titre-2\">Mes compétences</h2>
-            <div class=\"row\">
-                <div class=\"col\">
-                    <h4 class=\"cv-titre-4\">Web</h4>
-                    <ul>
-                        <li>HTML / CSS</li>
-                        <li>PHP</li>
-                        <li>JavaScript</li>
-                        <li>jQuery</li>
-                        <li>Ajax</li>
-                        <li>AngularJs</li>
-                        <li>Symfony</li>
-                        <li>Bootstrap</li>
-                    </ul>
-                </div>
-                <div class=\"col\">
-                    <h4 class=\"cv-titre-4\">Autres langages</h4>
-                    <ul>
-                        <li>MySql</li>
-                        <li>Java</li>
-                        <li>C#</li>
-                        <li>Visual Basic .NET</li>
-                        <li>Python</li>
-                    </ul>
-                </div>
-                 <div class=\"col\">
-                    <h4 class=\"cv-titre-4\">Réseau</h4>
-                    <ul>
-                        <li>Configuration d'un serveur DNS (bind)</li>
-                        <li>Configuration d'un serveur VPN (openvpn)</li>
-                        <li>Configuration d'un serveur SMTP</li>
-                        <li>Configuration d'un serveur FTP (proftpd)</li>
-                    </ul>
-                </div>
-                <div class=\"col\">
-                    <h4 class=\"cv-titre-4\">Mes outils</h4>
-                    <ul>
-                        <li>Archlinux (OS principal)</li>
-                        <li>Git</li>
-                        <li>Visual Studio Code</li>
-                        <li>Visual Studio 2017</li>
-                        <li>Netbeans</li>
-                    </ul>
-                </div>
-            </div><hr>
-            <div>
-                <h2 class=\"cv-titre-2\">Mes langues</h3>
-                <ul>
-                    <li>Anglais : niveau B2 + langage orienté professionnel</li>
-                </ul>
-            </div><hr>
-            <div>
-                <h2 class=\"cv-titre-2\">Mes hobbies</h3>
-                <ul>
-                    <li>Le cinéma, les films, les séries, en particulié la science fiction (Marvel, DC'Comics) et en VO</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+        echo "    <h1 class=\"skill-title-1 text-center\">Curriculum vitae</h1>
+    <embed src=\"";
+        // line 5
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("ressources/cv.pdf?#zoom=100"), "html", null, true);
+        echo "\" width=\"100%\" height=\"1200\" type=\"application/pdf\"/>
 ";
         
-        $__internal_174f7786c7f21b423bad2051a0d08908ef08a6dfd61eec8d03345750cb854771->leave($__internal_174f7786c7f21b423bad2051a0d08908ef08a6dfd61eec8d03345750cb854771_prof);
+        $__internal_96250c26021637c14efba9290e8491d25bfacb5987dae4850f8c1850311649cf->leave($__internal_96250c26021637c14efba9290e8491d25bfacb5987dae4850f8c1850311649cf_prof);
 
         
-        $__internal_4429f3a4aa5568c8cbca6e1e3e521d2af17dffb113552c037222081bbcf43f01->leave($__internal_4429f3a4aa5568c8cbca6e1e3e521d2af17dffb113552c037222081bbcf43f01_prof);
+        $__internal_eda00fbffcfa09d921beb8fbc73bcdea77088884cb83a49dd11356cb45c533e0->leave($__internal_eda00fbffcfa09d921beb8fbc73bcdea77088884cb83a49dd11356cb45c533e0_prof);
 
     }
 
@@ -157,7 +72,7 @@ class __TwigTemplate_28c7fd0cb397fe6f827c877505fd2de822dc45e8305d9892e2d75534fc0
 
     public function getDebugInfo()
     {
-        return array (  53 => 6,  49 => 4,  40 => 3,  11 => 1,);
+        return array (  52 => 5,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -173,93 +88,8 @@ class __TwigTemplate_28c7fd0cb397fe6f827c877505fd2de822dc45e8305d9892e2d75534fc0
         return new Twig_Source("{% extends 'base.html.twig' %}
 
 {% block body %}
-    <div class=\"row cv-header\">
-        <div>
-            <img class=\"rounded-circle photo-profil\" src=\"{{asset('img/photo-profil.png')}}\">
-        </div>
-        <div class=\"col\">
-            <h1 class=\"cv-nom\">Sébastien Vallet</h1>
-            <ul class=\"cv-header\">
-                <li>Né le 18/09/1997</li>
-                <li>Titulaire du permis B</li>
-            </ul>
-        </div>
-    </div><hr>
-    <div class=\"competences-contener\">
-        <div class=\"cv-section\">
-            <h2 class=\"cv-titre-2\">Ma formation</h2>
-            <ul>
-                <li>2016 / 2018 BTS SIO (services informatiques aux organisations) option SLAM (Solutions Logicielles et Applications Métiers)</li>
-                <li>2016 Baccalauréat scientifique option sciences de l'ingenieur</li>
-            </ul>
-        </div><hr>
-        <div class=\"cv-section\">
-            <h2 class=\"cv-titre-2\">Mon expérience</h2>
-            <ul>
-                <li>2017 - Stage de 5 semaines en développement à Acta Mobilier, Monéteau (89470)</li>
-                <li>2016 - Cours d'initiation à la bureautique, juillet - août.</li>
-            </ul>
-        </div><hr>
-        <div class=\"cv-section\">
-            <h2 class=\"cv-titre-2\">Mes compétences</h2>
-            <div class=\"row\">
-                <div class=\"col\">
-                    <h4 class=\"cv-titre-4\">Web</h4>
-                    <ul>
-                        <li>HTML / CSS</li>
-                        <li>PHP</li>
-                        <li>JavaScript</li>
-                        <li>jQuery</li>
-                        <li>Ajax</li>
-                        <li>AngularJs</li>
-                        <li>Symfony</li>
-                        <li>Bootstrap</li>
-                    </ul>
-                </div>
-                <div class=\"col\">
-                    <h4 class=\"cv-titre-4\">Autres langages</h4>
-                    <ul>
-                        <li>MySql</li>
-                        <li>Java</li>
-                        <li>C#</li>
-                        <li>Visual Basic .NET</li>
-                        <li>Python</li>
-                    </ul>
-                </div>
-                 <div class=\"col\">
-                    <h4 class=\"cv-titre-4\">Réseau</h4>
-                    <ul>
-                        <li>Configuration d'un serveur DNS (bind)</li>
-                        <li>Configuration d'un serveur VPN (openvpn)</li>
-                        <li>Configuration d'un serveur SMTP</li>
-                        <li>Configuration d'un serveur FTP (proftpd)</li>
-                    </ul>
-                </div>
-                <div class=\"col\">
-                    <h4 class=\"cv-titre-4\">Mes outils</h4>
-                    <ul>
-                        <li>Archlinux (OS principal)</li>
-                        <li>Git</li>
-                        <li>Visual Studio Code</li>
-                        <li>Visual Studio 2017</li>
-                        <li>Netbeans</li>
-                    </ul>
-                </div>
-            </div><hr>
-            <div>
-                <h2 class=\"cv-titre-2\">Mes langues</h3>
-                <ul>
-                    <li>Anglais : niveau B2 + langage orienté professionnel</li>
-                </ul>
-            </div><hr>
-            <div>
-                <h2 class=\"cv-titre-2\">Mes hobbies</h3>
-                <ul>
-                    <li>Le cinéma, les films, les séries, en particulié la science fiction (Marvel, DC'Comics) et en VO</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <h1 class=\"skill-title-1 text-center\">Curriculum vitae</h1>
+    <embed src=\"{{asset('ressources/cv.pdf?#zoom=100')}}\" width=\"100%\" height=\"1200\" type=\"application/pdf\"/>
 {% endblock %}", "folio/cv.html.twig", "E:\\User\\Google Drive\\Programmation\\Symfony\\folio\\app\\Resources\\views\\folio\\cv.html.twig");
     }
 }

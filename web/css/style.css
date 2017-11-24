@@ -183,3 +183,22 @@ footer a {
     border-radius: 5px; */
     list-style-type: none;
 }
+
+.title-blue {
+    color: #0275D8;
+    font-size: 2em;
+    text-decoration: underline;
+    margin: 50px 0 20px 0;
+}
+
+.title-mini {
+    color: #333333;
+    font-size: 1.3em;
+    text-decoration: underline;
+    font-style: italic;
+    margin: 50px 0 20px 0;
+}
+
+.decoration-none {
+    list-style: none;
+}

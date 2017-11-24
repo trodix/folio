@@ -140,6 +140,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
+        // stage1
+        if ('/stages/1' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::stage1Action',  '_route' => 'stage1',);
+        }
+
         // veille
         if ('/veille' === $pathinfo) {
             return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::veilleAction',  '_route' => 'veille',);

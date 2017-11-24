@@ -52,6 +52,17 @@ class DefaultController extends Controller
         ]);
     }
 
+      /**
+     * @Route("/stages/1", name="stage1")
+     */
+    public function stage1Action(Request $request)
+    {
+        
+        return $this->render('folio/stage1.html.twig', [
+            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+        ]);
+    }
+
     /**
      * @Route("/veille", name="veille")
      */
