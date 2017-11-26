@@ -6,6 +6,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use AppBundle\Entity\Contact;
+use AppBundle\Entity\Mail;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
 class ContactController extends Controller
@@ -35,7 +36,6 @@ class ContactController extends Controller
 
             $decode = json_decode(file_get_contents($api_url), true);
             $isCaptchaValid = $decode['success'];
-            $isCaptchaValid = true;
         }
         //******************************************************
 
@@ -50,6 +50,16 @@ class ContactController extends Controller
             $em = $this->getDoctrine()->getManager();
             $em->persist($formContact);
             $em->flush();
+
+            $envoiMail = new Mail();
+            $envoiMail->appendMessage([
+                htmlentities($data['contact']['mail']),
+                htmlentities($data['contact']['lastName']),
+                htmlentities($data['contact']['firstName']),
+                htmlentities($data['contact']['message'])
+                ]);
+            $envoiMail->envoyer();
+
             $reponse['success'] = true;
         }elseif (isset($data['contact']['submit'])) {
             $reponse['success'] = false;
