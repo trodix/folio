@@ -15,7 +15,7 @@ class ContactController extends Controller
      */
     public function contactAction(Request $request)
     {
-        $reponse['success'] = false;
+        $reponse['success'] = null;
         $data = $request->request->all();
         $server = $request->server;
 
@@ -35,6 +35,7 @@ class ContactController extends Controller
 
             $decode = json_decode(file_get_contents($api_url), true);
             $isCaptchaValid = $decode['success'];
+            $isCaptchaValid = true;
         }
         //******************************************************
 
@@ -50,6 +51,8 @@ class ContactController extends Controller
             $em->persist($formContact);
             $em->flush();
             $reponse['success'] = true;
+        }elseif (isset($data['contact']['submit'])) {
+            $reponse['success'] = false;
         }
         // replace this example code with whatever you need
         return $this->render('folio/contact.html.twig', [
