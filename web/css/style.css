@@ -202,3 +202,7 @@ footer a {
 .list-style-none {
     list-style: none;
 }
+
+.margin-bottom {
+    margin-bottom: 20px;
+}

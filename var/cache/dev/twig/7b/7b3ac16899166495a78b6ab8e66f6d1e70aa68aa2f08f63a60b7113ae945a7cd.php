@@ -21,29 +21,29 @@ class __TwigTemplate_c2c88107516f62e00d6436888276e7152db6e5933c485ac8fc4e3c07a86
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_0f683ee274fd7f2f56765200177f33a1664c053b71a43e5169df643af0438eba = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_0f683ee274fd7f2f56765200177f33a1664c053b71a43e5169df643af0438eba->enter($__internal_0f683ee274fd7f2f56765200177f33a1664c053b71a43e5169df643af0438eba_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/stage1.html.twig"));
+        $__internal_4d65b925b02f81176fea4d5b166efe551de09744ff85ec87d9930419fc944ea0 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_4d65b925b02f81176fea4d5b166efe551de09744ff85ec87d9930419fc944ea0->enter($__internal_4d65b925b02f81176fea4d5b166efe551de09744ff85ec87d9930419fc944ea0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/stage1.html.twig"));
 
-        $__internal_17cebfe16aab21d466815d94521098e4194b52c163d247930f9f14ac8f3028a8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_17cebfe16aab21d466815d94521098e4194b52c163d247930f9f14ac8f3028a8->enter($__internal_17cebfe16aab21d466815d94521098e4194b52c163d247930f9f14ac8f3028a8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/stage1.html.twig"));
+        $__internal_d5ac70a090801504b0d44347a9eed1f8e11162f13ba355fd7606db648015343d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d5ac70a090801504b0d44347a9eed1f8e11162f13ba355fd7606db648015343d->enter($__internal_d5ac70a090801504b0d44347a9eed1f8e11162f13ba355fd7606db648015343d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "folio/stage1.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_0f683ee274fd7f2f56765200177f33a1664c053b71a43e5169df643af0438eba->leave($__internal_0f683ee274fd7f2f56765200177f33a1664c053b71a43e5169df643af0438eba_prof);
+        $__internal_4d65b925b02f81176fea4d5b166efe551de09744ff85ec87d9930419fc944ea0->leave($__internal_4d65b925b02f81176fea4d5b166efe551de09744ff85ec87d9930419fc944ea0_prof);
 
         
-        $__internal_17cebfe16aab21d466815d94521098e4194b52c163d247930f9f14ac8f3028a8->leave($__internal_17cebfe16aab21d466815d94521098e4194b52c163d247930f9f14ac8f3028a8_prof);
+        $__internal_d5ac70a090801504b0d44347a9eed1f8e11162f13ba355fd7606db648015343d->leave($__internal_d5ac70a090801504b0d44347a9eed1f8e11162f13ba355fd7606db648015343d_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_618b889fab64d1f6e99c24239cb8b2176c6086bc8fc283cffacd3bab8b442b4c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_618b889fab64d1f6e99c24239cb8b2176c6086bc8fc283cffacd3bab8b442b4c->enter($__internal_618b889fab64d1f6e99c24239cb8b2176c6086bc8fc283cffacd3bab8b442b4c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_5cbee63bb24801b24db6a4428740e1dc1ce5342ccbd15b1ba53c071afb02af8c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_5cbee63bb24801b24db6a4428740e1dc1ce5342ccbd15b1ba53c071afb02af8c->enter($__internal_5cbee63bb24801b24db6a4428740e1dc1ce5342ccbd15b1ba53c071afb02af8c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_a456b887e9f9910fbc4f0e7b1650dd1f0aa02793db0b3a6cf7c7679b0870635a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a456b887e9f9910fbc4f0e7b1650dd1f0aa02793db0b3a6cf7c7679b0870635a->enter($__internal_a456b887e9f9910fbc4f0e7b1650dd1f0aa02793db0b3a6cf7c7679b0870635a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_a3d50b7984e8bed31874930044868a422c2c7b3356ff99d5588405ee15f5cdc7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a3d50b7984e8bed31874930044868a422c2c7b3356ff99d5588405ee15f5cdc7->enter($__internal_a3d50b7984e8bed31874930044868a422c2c7b3356ff99d5588405ee15f5cdc7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "
@@ -54,6 +54,11 @@ class __TwigTemplate_c2c88107516f62e00d6436888276e7152db6e5933c485ac8fc4e3c07a86
         echo "\" class=\"hidden-sm-down\" id=\"logo-acta\"></img>
     <h3 class=\"skill-title-1\">Acta Mobilier</h3>
 </div><hr>
+<div class=\"card bg-faded p-3 margin-bottom\">
+    <strong>Acta Mobilier</strong> est une PME de 150 salariés fondée en 1984 et basée à Monéteau.
+    Son activité principale est la conception et la création de cuisines de luxe.
+    L'entreprise réalise aussi des aménagements pour le groupe PSA ainsi que pour Chanel, Dior...
+</div>
 
 <div class=\"col\">
         <ul>
@@ -120,37 +125,37 @@ class __TwigTemplate_c2c88107516f62e00d6436888276e7152db6e5933c485ac8fc4e3c07a86
         <h5 class=\"title-mini\">Gestion stock de laque</h5>
 
         <a target=\"_blank\" href=\"";
-        // line 74
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s1.png"), "html", null, true);
-        echo "\"><img src=\"";
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s1.png"), "html", null, true);
-        echo "\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"";
-        // line 75
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s2.png"), "html", null, true);
-        echo "\"><img src=\"";
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s2.png"), "html", null, true);
-        echo "\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"";
-        // line 76
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s3.png"), "html", null, true);
-        echo "\"><img src=\"";
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s3.png"), "html", null, true);
-        echo "\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"";
-        // line 77
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s4.png"), "html", null, true);
-        echo "\"><img src=\"";
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s4.png"), "html", null, true);
-        echo "\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"";
-        // line 78
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s5.png"), "html", null, true);
-        echo "\"><img src=\"";
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s5.png"), "html", null, true);
-        echo "\" class=\"screen-picture\"></a>
-        <a target=\"_blank\" href=\"";
         // line 79
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s1.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s1.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"";
+        // line 80
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s2.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s2.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"";
+        // line 81
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s3.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s3.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"";
+        // line 82
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s4.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s4.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"";
+        // line 83
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s5.png"), "html", null, true);
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/s5.png"), "html", null, true);
+        echo "\" class=\"screen-picture\"></a>
+        <a target=\"_blank\" href=\"";
+        // line 84
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/etiquette.png"), "html", null, true);
         echo "\"><img src=\"";
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/GestionStockLaque/etiquette.png"), "html", null, true);
@@ -160,18 +165,18 @@ class __TwigTemplate_c2c88107516f62e00d6436888276e7152db6e5933c485ac8fc4e3c07a86
         <h5 class=\"title-mini\">Tableau Dynamique</h5>
 
         <a target=\"_blank\" href=\"";
-        // line 84
+        // line 89
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/Tableau_Dynamique/Capture.png"), "html", null, true);
         echo "\"><img src=\"";
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/stages/1/Tableau_Dynamique/Capture.png"), "html", null, true);
         echo "\" class=\"screen-picture\"></a>
         <ul class=\"list-style-none\">
             <li><a target=\"_blank\" href=\"";
-        // line 86
+        // line 91
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("ressources/ClsLotFab.vb"), "html", null, true);
         echo "\">ClsLotFab.vb</a></li>
             <li><a target=\"_blank\" href=\"";
-        // line 87
+        // line 92
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("ressources/Form1.vb"), "html", null, true);
         echo "\">Form1.vb</a></li>
         </ul>
@@ -180,10 +185,10 @@ class __TwigTemplate_c2c88107516f62e00d6436888276e7152db6e5933c485ac8fc4e3c07a86
 \t
 ";
         
-        $__internal_a456b887e9f9910fbc4f0e7b1650dd1f0aa02793db0b3a6cf7c7679b0870635a->leave($__internal_a456b887e9f9910fbc4f0e7b1650dd1f0aa02793db0b3a6cf7c7679b0870635a_prof);
+        $__internal_a3d50b7984e8bed31874930044868a422c2c7b3356ff99d5588405ee15f5cdc7->leave($__internal_a3d50b7984e8bed31874930044868a422c2c7b3356ff99d5588405ee15f5cdc7_prof);
 
         
-        $__internal_618b889fab64d1f6e99c24239cb8b2176c6086bc8fc283cffacd3bab8b442b4c->leave($__internal_618b889fab64d1f6e99c24239cb8b2176c6086bc8fc283cffacd3bab8b442b4c_prof);
+        $__internal_5cbee63bb24801b24db6a4428740e1dc1ce5342ccbd15b1ba53c071afb02af8c->leave($__internal_5cbee63bb24801b24db6a4428740e1dc1ce5342ccbd15b1ba53c071afb02af8c_prof);
 
     }
 
@@ -199,7 +204,7 @@ class __TwigTemplate_c2c88107516f62e00d6436888276e7152db6e5933c485ac8fc4e3c07a86
 
     public function getDebugInfo()
     {
-        return array (  175 => 87,  171 => 86,  164 => 84,  154 => 79,  148 => 78,  142 => 77,  136 => 76,  130 => 75,  124 => 74,  53 => 6,  49 => 4,  40 => 3,  11 => 1,);
+        return array (  180 => 92,  176 => 91,  169 => 89,  159 => 84,  153 => 83,  147 => 82,  141 => 81,  135 => 80,  129 => 79,  53 => 6,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -220,6 +225,11 @@ class __TwigTemplate_c2c88107516f62e00d6436888276e7152db6e5933c485ac8fc4e3c07a86
     <img src=\"{{asset('img/stages/1/logo-acta.png')}}\" class=\"hidden-sm-down\" id=\"logo-acta\"></img>
     <h3 class=\"skill-title-1\">Acta Mobilier</h3>
 </div><hr>
+<div class=\"card bg-faded p-3 margin-bottom\">
+    <strong>Acta Mobilier</strong> est une PME de 150 salariés fondée en 1984 et basée à Monéteau.
+    Son activité principale est la conception et la création de cuisines de luxe.
+    L'entreprise réalise aussi des aménagements pour le groupe PSA ainsi que pour Chanel, Dior...
+</div>
 
 <div class=\"col\">
         <ul>

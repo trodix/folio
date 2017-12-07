@@ -95,8 +95,8 @@
     <parameter key="database_host">127.0.0.1</parameter>
     <parameter key="database_port">null</parameter>
     <parameter key="database_name">folio</parameter>
-    <parameter key="database_user">root</parameter>
-    <parameter key="database_password">null</parameter>
+    <parameter key="database_user">bdfolio</parameter>
+    <parameter key="database_password">mdpfolio</parameter>
     <parameter key="mailer_transport">gmail</parameter>
     <parameter key="mailer_host">smtp.gmail.com</parameter>
     <parameter key="mailer_user">sebastien.vallet89@gmail.com</parameter>
@@ -623,7 +623,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>-ZLH7ZY3zn5aacUAIs90Rc</argument>
+      <argument>ZV+B2GnDznNh88L-KyEnJM</argument>
       <argument>E:\User\Google Drive\Programmation\Symfony\folio\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -633,7 +633,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>-ZLH7ZY3zn5aacUAIs90Rc</argument>
+      <argument>ZV+B2GnDznNh88L-KyEnJM</argument>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
@@ -2186,12 +2186,12 @@
     </service>
     <service id="security.authentication.listener.anonymous.main" class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
       <argument type="service" id="security.token_storage"/>
-      <argument>5a1b154f21bdb8.26681488</argument>
+      <argument>5a28edd5d5c6e1.52625136</argument>
       <argument type="service" id="monolog.logger.security" on-invalid="null"/>
       <argument type="service" id="security.authentication.manager"/>
     </service>
     <service id="security.authentication.provider.anonymous.main" class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-      <argument>5a1b154f21bdb8.26681488</argument>
+      <argument>5a28edd5d5c6e1.52625136</argument>
     </service>
     <service id="security.exception_listener.main" class="Symfony\Component\Security\Http\Firewall\ExceptionListener" public="false">
       <argument type="service" id="security.token_storage"/>
@@ -2817,8 +2817,8 @@
         <argument key="host">127.0.0.1</argument>
         <argument key="port">null</argument>
         <argument key="dbname">folio</argument>
-        <argument key="user">root</argument>
-        <argument key="password">null</argument>
+        <argument key="user">bdfolio</argument>
+        <argument key="password">mdpfolio</argument>
         <argument key="charset">UTF8</argument>
         <argument key="driverOptions" type="collection"/>
         <argument key="defaultTableOptions" type="collection"/>
@@ -3456,7 +3456,7 @@
     <service id="cache.system.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>PxBhDt4a+v</argument>
       <argument>0</argument>
-      <argument>-ZLH7ZY3zn5aacUAIs90Rc</argument>
+      <argument>ZV+B2GnDznNh88L-KyEnJM</argument>
       <argument>E:\User\Google Drive\Programmation\Symfony\folio\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -3464,7 +3464,7 @@
     <service id="cache.validator.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>1Ws65bQgoE</argument>
       <argument>0</argument>
-      <argument>-ZLH7ZY3zn5aacUAIs90Rc</argument>
+      <argument>ZV+B2GnDznNh88L-KyEnJM</argument>
       <argument>E:\User\Google Drive\Programmation\Symfony\folio\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -3472,7 +3472,7 @@
     <service id="cache.serializer.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>0xuQCYscBl</argument>
       <argument>0</argument>
-      <argument>-ZLH7ZY3zn5aacUAIs90Rc</argument>
+      <argument>ZV+B2GnDznNh88L-KyEnJM</argument>
       <argument>E:\User\Google Drive\Programmation\Symfony\folio\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -3480,7 +3480,7 @@
     <service id="cache.annotations.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>QmJTAvO8WK</argument>
       <argument>0</argument>
-      <argument>-ZLH7ZY3zn5aacUAIs90Rc</argument>
+      <argument>ZV+B2GnDznNh88L-KyEnJM</argument>
       <argument>E:\User\Google Drive\Programmation\Symfony\folio\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
