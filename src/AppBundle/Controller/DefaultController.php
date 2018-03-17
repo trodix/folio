@@ -52,6 +52,17 @@ class DefaultController extends Controller
         ]);
     }
 
+    /**
+     * @Route("/ppe/4", name="ppe4")
+     */
+    public function ppe4Action(Request $request)
+    {
+        // replace this example code with whatever you need
+        return $this->render('folio/ppe4.html.twig', [
+            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+        ]);
+    }
+
       /**
      * @Route("/stages/1", name="stage1")
      */
@@ -59,6 +70,17 @@ class DefaultController extends Controller
     {
         
         return $this->render('folio/stage1.html.twig', [
+            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+        ]);
+    }
+
+     /**
+     * @Route("/stages/2", name="stage2")
+     */
+    public function stage2Action(Request $request)
+    {
+        
+        return $this->render('folio/stage2.html.twig', [
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
         ]);
     }
