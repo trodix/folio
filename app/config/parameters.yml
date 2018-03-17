@@ -8,6 +8,6 @@ parameters:
     mailer_transport: gmail
     mailer_host: smtp.gmail.com
     mailer_user: sebastien.vallet89@gmail.com
-    mailer_password:  mK3C8rpKRpg7
+    mailer_password:  
     secret: jhsqjdjwxkcoihqsh62654156456dsdwhxgdqslkdl
     
