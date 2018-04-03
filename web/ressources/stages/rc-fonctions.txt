@@ -1,0 +1,35 @@
+F1.1 - Gestion Enregistrement RC
+	*F1.1.2 Enregistrer RC -> infos client depuis CEGID
+	*F1.1.3 Modifier RC
+	F1.1.4 Envoyer mail auto au client => envoyer dans la bonne langue
+
+F1.2 - Gestion Analyse RC
+	*F1.2.1 Enregistrer analyse RC -> Remplir champs depuis F1.1
+	*F1.2.2 Valider ou refuser -> si refuser => Fin
+	*F1.2.3 Modifier analyse RC (commentaire + Ajouter/Supprimer pieces jointes + completer champs vide)
+
+F1.3 - Recencement
+	F1.3.1 Ajouter type cause / categorie cause
+	*F1.3.2 Enregistrer recencement -> remplir champs depuis F1.2
+	*F1.3.3 Modifier recencement (commentaire + Ajouter/Supprimer pieces jointes + completer champs vide)
+
+F2.1 - Avoir (à tout moment)
+	F2.1.1 Préparer avoir
+	F2.1.2 Envoyer avoir à [Emetteur avoir] (F2.2)
+
+F2.2 - Réaliser avoir (si F2.1 terminé) -> CEGID
+	F2.2.1 Commentaire / pieces jointes / fait
+
+F3 - Information Client (à tout moment)
+	F3.1 Envoyer mail (commentaire) au client pour informer de l'avancement 
+	F3.2 Traduire mail
+
+F4 - Information interne (à tout moment)
+	F4.1 Envoyer mail interne (commentaire) à Acta
+	F4.2 Garder une trace du mail
+
+F5 - Impression
+	F5.1 Imprimer les RC de la semaine (DateReception) => Tout ou par client
+
+F6 - Indicateurs
+	F6.1 Type cause RC / Categ cause RC
