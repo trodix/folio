@@ -2,6 +2,17 @@
 
 {% block body %}
 
+{% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+    <form @submit.prevent="addArticle" class="mb-3">
+        <div class="form-group">
+            <input v-model="article.title" type="text" class="form-control" placeholder="Title">
+        </div>
+        <div class="form-group">
+            <textarea v-model="article.body" type="text" class="form-control" placeholder="Body"></textarea>
+        </div>
+        <button type="submit" class="btn btn-light btn-block">Save</button>
+    </form>
+{% endif %}
 <div class="row">
     <div class="col-sm-12 col-md-10">
         {% for article in articles %}
