@@ -3,20 +3,33 @@
 {% block body %}
 
 {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
-    <form @submit.prevent="addArticle" class="mb-3">
-        <div class="form-group">
-            <input v-model="article.title" type="text" class="form-control" placeholder="Title">
-        </div>
-        <div class="form-group">
-            <textarea v-model="article.body" type="text" class="form-control" placeholder="Body"></textarea>
-        </div>
-        <button type="submit" class="btn btn-light btn-block">Save</button>
-    </form>
+    <div class="col-md-6 col-lg-6 justify-content-center align-items-center">
+        <h2>Gestion des posts</h2>
+        <form class="form" id="myform">
+            <div class="form-group">
+                <label for="input_title">Titre du post</label>
+                <input class="form-control" type="text" id="input_title" />
+            </div>
+             <div class="form-group">
+                <label for="input_body">Texte du post</label>
+                <textarea class="form-control" id="input_body"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="input_file">Image du post</label>
+                <input class="form-control-file" type="file" id="input_file" name="input_file"/>
+            </div>
+
+            <input type="hidden" id="input_id" data-id=""/>
+            <button class="btn btn-primary" type="button" id="_submit" name="_submit" onclick="sendModif();">Valider</button>
+
+        </form>
+    </div>
+    <hr>
 {% endif %}
 <div class="row">
     <div class="col-sm-12 col-md-10">
         {% for article in articles %}
-            <div id="art-{{article.id}}">
+            <div id="art-{{article.id}}" class="bg-faded">
                 <article class="article row">
                     <div class="col-md-3">
                         <a class="hidden-sm-down" href="{{article.urlSource}}" target="_blank">
@@ -37,6 +50,12 @@
                         </div>  
                     </div>              
                 </article>
+                {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                    <div class="text-right p-2">
+                        <button class="btn btn-warning" onclick="modifier({{article.id}});">Modifier</button>
+                        <button class="btn btn-danger" onclick="supprimer({{article.id}});">Supprimer</button>
+                    </div>
+                {% endif %}
             </div>
         {% endfor %}
     </div>
