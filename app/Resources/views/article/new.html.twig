@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Article creation</h1>
+
+<div class="col-md-6 col-lg-6 justify-content-center align-items-center">
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <input type="submit" value="Create" />
+    {{ form_end(form) }}
+</div>
+    <ul>
+        <li>
+            <a href="{{ path('veille_index') }}">Back to the list</a>
+        </li>
+    </ul>
+{% endblock %}
