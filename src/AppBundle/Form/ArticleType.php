@@ -14,7 +14,7 @@ class ArticleType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('title')->add('body')->add('urlArticle')->add('image', FileType::class, ['required' => false,]);
+        $builder->add('title')->add('body', null, ['attr' => ['class' => 'form-control']])->add('urlArticle')->add('image', FileType::class, ['required' => false, 'attr' => ['class' => 'form-control']]);
     }
     
     /**

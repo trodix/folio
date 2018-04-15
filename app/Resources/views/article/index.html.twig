@@ -31,7 +31,7 @@
         {% for article in articles %}
             <div id="art-{{article.id}}" class="bg-faded">
                 <article class="article row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 p-2">
                         <a class="hidden-sm-down" href="{{article.urlArticle}}" target="_blank">
                             <img class="art-picture" src="{{asset('uploads/articles/' ~ article.imageName)}}" alt="{{article.title}}">
                         </a>
@@ -51,9 +51,8 @@
                     </div>              
                 </article>
                 {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
-                    <div class="text-right p-2">
-                        <button class="btn btn-warning" onclick="modifier({{article.id}});">Modifier</button>
-                        <button class="btn btn-danger" onclick="supprimer({{article.id}});">Supprimer</button>
+                    <div class="text-right mr-auto p-2">    
+                        <a class="btn btn-warning" href="/veille/{{article.id}}/edit">Modifier</a>
                     </div>
                 {% endif %}
             </div>

@@ -1,17 +1,16 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Article creation</h1>
+    <h1>Créer un article</h1>
+    <hr>
+    <div class="m-4">
+        <a href="{{ path('veille_index') }}" class="btn btn-primary">Retour</a>
+    </div>
 
 <div class="col-md-6 col-lg-6 justify-content-center align-items-center">
     {{ form_start(form) }}
         {{ form_widget(form) }}
-        <input type="submit" value="Create" />
+        <input type="submit" value="Créer" class="btn btn-success"/>
     {{ form_end(form) }}
 </div>
-    <ul>
-        <li>
-            <a href="{{ path('veille_index') }}">Back to the list</a>
-        </li>
-    </ul>
 {% endblock %}

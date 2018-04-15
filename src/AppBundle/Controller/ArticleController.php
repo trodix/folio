@@ -112,6 +112,22 @@ class ArticleController extends Controller
         );
 
         if ($editForm->isSubmitted() && $editForm->isValid()) {
+
+            $file = $article->getImage();
+            if($file !== null){
+
+                $fileName = $this->generateUniqueFileName().'.'.$file->guessExtension();
+                // Move the file to the directory where images are stored
+                $file->move(
+                    $this->getParameter('images_directory'),
+                    $fileName
+                );
+
+                 // Update the 'image' property to store the image file name
+                // instead of its contents
+                $article->setImageName($fileName);
+            }
+
             $this->getDoctrine()->getManager()->flush();
 
             return $this->redirectToRoute('veille_edit', array('id' => $article->getId()));
