@@ -1,62 +1,63 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-
-<h1 class="skill-title-1">Me contacter</h1>
-<div class="row" id="contact-form-contener">
-    <div class="col-sm-12 col-md-6">
-        <form accept-charset="UTF-8" method="post" id="form-contact">
-            <div class="row">
-                <div class="col" style="margin-bottom: 0;">
-                    <div class="form-group">
-                        <input class="form-control" id="contactNom" name="contact[lastName]" placeholder="Nom" required="required" type="text">
+<div class="container">
+    <h1 class="skill-title-1">Me contacter</h1>
+    <div class="row" id="contact-form-contener">
+        <div class="col-sm-12 col-md-6">
+            <form accept-charset="UTF-8" method="post" id="form-contact">
+                <div class="row">
+                    <div class="col" style="margin-bottom: 0;">
+                        <div class="form-group">
+                            <input class="form-control" id="contactNom" name="contact[lastName]" placeholder="Nom" required="required" type="text">
+                        </div>
+                    </div>
+                    <div class="col" style="margin-bottom: 0;">
+                        <div class="form-group">
+                            <input class="form-control" id="contactPrenom" name="contact[firstName]" placeholder="Prénom" required="required" type="text">
+                        </div>
                     </div>
                 </div>
-                <div class="col" style="margin-bottom: 0;">
-                    <div class="form-group">
-                        <input class="form-control" id="contactPrenom" name="contact[firstName]" placeholder="Prénom" required="required" type="text">
+                <div class="row">
+                    <div class="col" style="margin-bottom: 0;">
+                        <div class="form-group">
+                            <input class="form-control" id="contactEmail" name="contact[mail]" placeholder="email@domain.com" required="required" type="email">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col" style="margin-bottom: 0;">
-                    <div class="form-group">
-                        <input class="form-control" id="contactEmail" name="contact[mail]" placeholder="email@domain.com" required="required" type="email">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <textarea class="form-control" id="contactmessage" name="contact[message]" placeholder="Votre message" required="required"></textarea>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="form-group">
-                        <textarea class="form-control" id="contactmessage" name="contact[message]" placeholder="Votre message" required="required"></textarea>
+                <div class="row">
+                    <div class="col">
+                        <div class="g-recaptcha" data-sitekey="6LcE5DEUAAAAAGzcP9DhVLQHyiscHqF5G9tGURG2"></div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="g-recaptcha" data-sitekey="6LcE5DEUAAAAAGzcP9DhVLQHyiscHqF5G9tGURG2"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="form-group">
-                        <input class="btn btn-primary" type="submit" name="contact[submit]" value="Envoyer">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <input class="btn btn-primary" type="submit" name="contact[submit]" value="Envoyer">
+                        </div>
                     </div>
                 </div>
-            </div>
-        </form>
-        {% if reponse.success is not null and reponse.success == false %}
-            <div class="alert alert-danger">
-                Une erreur s'est produite, le message n'a pas pu être envoyé.
-            </div>
-        {% elseif reponse.success == true %}
-            <div class="alert alert-success">
-                Votre message a bien été envoyé.
-            </div>
-        {% endif %}
-    </div>
-    <div class="col-md-6 text-right hidden-sm-down">
-        <img src="{{asset('img/email.png')}}">
+            </form>
+            {% if reponse.success is not null and reponse.success == false %}
+                <div class="alert alert-danger">
+                    Une erreur s'est produite, le message n'a pas pu être envoyé.
+                </div>
+            {% elseif reponse.success == true %}
+                <div class="alert alert-success">
+                    Votre message a bien été envoyé.
+                </div>
+            {% endif %}
+        </div>
+        <div class="col-md-6 text-right hidden-sm-down">
+            <img src="{{asset('img/email.png')}}">
+        </div>
     </div>
 </div>
 

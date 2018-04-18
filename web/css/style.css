@@ -8,6 +8,22 @@
     src: url(/fonts/Roboto-Regular.ttf);
 }
 
+.align-right-10 {
+    position: absolute;
+    right: 10px;
+    bottom: 10px
+}
+
+.scroll-y {
+    height: 1000px;
+    overflow-y: scroll;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
 .navbar-inverse .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 1);
 }
