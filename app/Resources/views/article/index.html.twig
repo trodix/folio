@@ -1,0 +1,114 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<div class="row justify-content-around">
+    <div class="col-sm-12 col-md-8">
+        <h2 class="text-center">Mes articles de veille</h2>
+        <hr>
+        {% for article in articles %}
+            <div id="art-{{article.id}}" class="card bg-faded my-5">
+                <article class="article row">
+                    <div class="col-md-3 mx-4">
+                        <a class="hidden-sm-down" href="{{article.urlArticle}}" target="_blank">
+                            <img class="art-picture card-img-top" src="{{asset('uploads/articles/' ~ article.imageName)}}" alt="{{article.title}}">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h2 class="art-title">
+                            <a href="{{article.urlArticle}}" target="_blank">{{article.title}}</a>
+                        </h2>
+                        <div class="art-header">
+                            <div class="left">
+                                <p>Crée le {{article.createdAt|date("d/m/Y")}}</p>
+                            </div>
+                        </div>
+                        <div class="article-description">
+                            <p>{{article.body}}</p>
+                        </div>  
+                    </div>              
+                </article>
+                {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                    <div class="align-right-10">    
+                        <a class="btn btn-warning" href="/veille/{{article.id}}/edit">Modifier</a>
+                    </div>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="col-push-1 col-sm-12 col-md-3">
+        <h2 class="text-center">Chaines youtube</h2>
+        <hr>
+        <div class="scroll-y">
+            <div class="card my-5">
+                <a href="https://www.youtube.com/user/TechGuyWeb/featured" target="_blank"><h3 class="card-title">Traversy Media</h3></a>
+                <div class="card-body">
+                    <a href="https://www.youtube.com/user/TechGuyWeb/featured" target="_blank">
+                        <img class="card-img-top" src="{{asset('img/links/traversymedia.png')}}">
+                    </a>
+                </div>
+            </div>
+            <div class="card my-5">
+                <a href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/featured" target="_blank"><h3 class="card-title">The Net Ninja</h3></a>
+                <div class="card-body">
+                    <a href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/featured" target="_blank">
+                        <img class="card-img-top" src="{{asset('img/links/thenetninja.png')}}">
+                    </a>
+                </div>
+            </div>
+            <div class="card my-5">
+                <a href="https://www.youtube.com/user/grafikarttv" target="_blank"><h3 class="card-title">Grafikart</h3></a>
+                <div class="card-body">
+                    <p>Site internet: <a href="https://www.grafikart.fr/">www.grafikart.fr</a></p>
+                    <a href="https://www.youtube.com/user/grafikarttv" target="_blank">
+                        <img class="card-img-top" src="{{asset('img/links/grafikart.png')}}">
+                    </a>
+                </div>
+            </div>
+            <div class="card my-5">
+                <a href="https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w" target="_blank"><h3 class="card-title">Academind</h3></a>
+                <div class="card-body">
+                    <a href="https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w" target="_blank">
+                        <img class="card-img-top" src="{{asset('img/links/academind.png')}}">
+                    </a>
+                </div>
+            </div>
+            <div class="card my-5">
+                <a href="https://www.youtube.com/channel/UC-ptWR16ITQyYOglXyQmpzw" target="_blank"><h3 class="card-title">IAmTimCorey</h3></a>
+                <div class="card-body">
+                    <a href="https://www.youtube.com/channel/UC-ptWR16ITQyYOglXyQmpzw" target="_blank">
+                        <img class="card-img-top" src="{{asset('img/links/iamtimcorey.png')}}">
+                    </a>
+                </div>
+            </div>
+            <div class="card my-5">
+                <a href="https://www.youtube.com/user/programmingwithmosh/playlists" target="_blank"><h3 class="card-title">Programming with Mosh</h3></a>
+                <div class="card-body">
+                    <a href="https://www.youtube.com/user/programmingwithmosh/playlists" target="_blank">
+                        <img class="card-img-top" src="{{asset('img/links/programmingwithmosh.png')}}">
+                    </a>
+                </div>
+            </div>
+            <div class="card my-5">
+                <a href="https://www.youtube.com/channel/UCigNaporFrKIPHiF1FcWfwA/videos" target="_blank"><h3 class="card-title">C# UI Academy</h3></a>
+                <div class="card-body">
+                    <a href="https://www.youtube.com/channel/UCigNaporFrKIPHiF1FcWfwA/videos" target="_blank">
+                        <img class="card-img-top" src="{{asset('img/links/uiacademy.png')}}">
+                    </a>
+                </div>
+            </div>
+            <div class="card my-5">
+                <a href="https://www.youtube.com/channel/UCJ3AxeCHGPZkMi3kRfCuiHw/playlists" target="_blank"><h3 class="card-title">AngelSix</h3></a>
+                <div class="card-body">
+                    <a href="https://www.youtube.com/channel/UCJ3AxeCHGPZkMi3kRfCuiHw/playlists" target="_blank">
+                        <img class="card-img-top" src="{{asset('img/links/angelsix.png')}}">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

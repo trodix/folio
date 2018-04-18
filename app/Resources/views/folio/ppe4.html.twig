@@ -2,98 +2,100 @@
 
 {% block body %}
 
-<div>
-	<div class="row">
-            <img src="{{asset('img/ppe/ppe4/logo-onf.png')}}"><h3 class="skill-title-1">Office national des forêts</h3>
-    </div><hr>
-	<article class="card bg-faded p-3">
-        <h3>Contexte</h3>
+<div class="container">
+	<div>
+		<div class="row">
+				<img src="{{asset('img/ppe/ppe4/logo-onf.png')}}"><h3 class="skill-title-1">Office national des forêts</h3>
+		</div><hr>
+		<article class="card bg-faded p-3">
+			<h3>Contexte</h3>
+			<p>
+			L’Office National des Forêts (ONF) gère au quotidien près
+			de 11 millions d’hectares de forêts publiques (forêts de
+			l’État et forêts des collectivités) en métropole et dans les
+			départements d’outre-mer, soit 25 % de la forêt française.
+			Son action s’articule autour de trois grandes missions :
+			</p>
+			<ul>
+				<li> produire du bois,</li>
+				<li> protéger l’environnement</li>
+				<li> et accueillir le public.</li>
+			</ul>
+			<p>
+			L’ONF propose également des services et des produits aux collectivités et aux entreprises, et
+			assure des missions de prévention et de gestion des risques naturels.
+			</p>
+			<p>
+			L'ONF est organisé en 6 directions territoriales et 5 directions régionales (Corse, La Réunion,
+			Guyane, Guadeloupe et Martinique), 51 agences territoriales, 320 unités territoriales. Son
+			siège est à Paris.
+			</p>
+			<p>
+			L'ONF emploie près de 10.000 personnes. Ces professionnels de la forêt et des espaces
+			naturels apportent leur compétence, leur expérience et leur savoir-faire de gestion, leur
+			capacité d'expertise et de travaux, leur connaissance de la forêt et du bois, à la réalisation
+			des missions de l'établissement.
+			</p>
+			<p>
+			Au quotidien, les forestiers veillent à l’entretien, au développement et au renouvellement
+			des forêts. Afin d'assurer cette mission, les unités territoriales dont dépendent les forestiers
+			disposent d'un serveur qui héberge notamment une base de données comprenant les
+			données sur les arbres qu'ils gèrent.
+			</p>
+			<p>
+			Cette base de données doit devenir la source d'information essentielle des forestiers, il faut
+			donc qu'ils disposent d’un outil fiable, précis et pratique pour la maintenir à jour.
+			Il a été décidé de coupler la base de données avec un système d’information géographique :
+			chaque arbre possède une puce et le bûcheron se déplacera désormais avec une tablette
+			graphique ou un smartphone sur lequelle il pourra compléter la fiche de l’arbre concerné.
+			</p>
+		</article><br>
+	</div>
+	<div class="title-stripes font-italic">
+		<p><strong>Besoins</strong></p>
+	</div>
+	<div>
+
 		<p>
-		L’Office National des Forêts (ONF) gère au quotidien près
-		de 11 millions d’hectares de forêts publiques (forêts de
-		l’État et forêts des collectivités) en métropole et dans les
-		départements d’outre-mer, soit 25 % de la forêt française.
-		Son action s’articule autour de trois grandes missions :
+			Le projet est issu d’un besoin de terrain : les bûcherons ont à leur disposition une base de
+			données sur les arbres de leur unité territoriale, mais sans avoir la possibilité de la
+			renseigner facilement, quand ils sont sur place. La base de données est actuellement mise à
+			jour par le biais de formulaires accessibles uniquement dans les bureaux de leur unité.
 		</p>
-		<ul>
-			<li> produire du bois,</li>
-			<li> protéger l’environnement</li>
-			<li> et accueillir le public.</li>
-		</ul>
-		<p>
-		L’ONF propose également des services et des produits aux collectivités et aux entreprises, et
-		assure des missions de prévention et de gestion des risques naturels.
-		</p>
-		<p>
-		L'ONF est organisé en 6 directions territoriales et 5 directions régionales (Corse, La Réunion,
-		Guyane, Guadeloupe et Martinique), 51 agences territoriales, 320 unités territoriales. Son
-		siège est à Paris.
-		</p>
-		<p>
-		L'ONF emploie près de 10.000 personnes. Ces professionnels de la forêt et des espaces
-		naturels apportent leur compétence, leur expérience et leur savoir-faire de gestion, leur
-		capacité d'expertise et de travaux, leur connaissance de la forêt et du bois, à la réalisation
-		des missions de l'établissement.
-		</p>
-		<p>
-		Au quotidien, les forestiers veillent à l’entretien, au développement et au renouvellement
-		des forêts. Afin d'assurer cette mission, les unités territoriales dont dépendent les forestiers
-		disposent d'un serveur qui héberge notamment une base de données comprenant les
-		données sur les arbres qu'ils gèrent.
-		</p>
-		<p>
-		Cette base de données doit devenir la source d'information essentielle des forestiers, il faut
-		donc qu'ils disposent d’un outil fiable, précis et pratique pour la maintenir à jour.
-		Il a été décidé de coupler la base de données avec un système d’information géographique :
-		chaque arbre possède une puce et le bûcheron se déplacera désormais avec une tablette
-		graphique ou un smartphone sur lequelle il pourra compléter la fiche de l’arbre concerné.
-		</p>
-	</article><br>
-</div>
-<div class="title-stripes font-italic">
-    <p><strong>Besoins</strong></p>
-</div>
-<div>
 
-	<p>
-		Le projet est issu d’un besoin de terrain : les bûcherons ont à leur disposition une base de
-		données sur les arbres de leur unité territoriale, mais sans avoir la possibilité de la
-		renseigner facilement, quand ils sont sur place. La base de données est actuellement mise à
-		jour par le biais de formulaires accessibles uniquement dans les bureaux de leur unité.
-	</p>
+		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-liste.png')}}"><img src="{{asset('img/ppe/ppe4/onf-liste.png')}}" class="screen-picture"></a>
+		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-charts.png')}}"><img src="{{asset('img/ppe/ppe4/onf-charts.png')}}" class="screen-picture"></a>
+		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-details.png')}}"><img src="{{asset('img/ppe/ppe4/onf-details.png')}}" class="screen-picture"></a>
+		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-details-chart.png')}}"><img src="{{asset('img/ppe/ppe4/onf-details-chart.png')}}" class="screen-picture"></a>
 
-    <a target="_blank" href="{{asset('img/ppe/ppe4/onf-liste.png')}}"><img src="{{asset('img/ppe/ppe4/onf-liste.png')}}" class="screen-picture"></a>
-	<a target="_blank" href="{{asset('img/ppe/ppe4/onf-charts.png')}}"><img src="{{asset('img/ppe/ppe4/onf-charts.png')}}" class="screen-picture"></a>
-	<a target="_blank" href="{{asset('img/ppe/ppe4/onf-details.png')}}"><img src="{{asset('img/ppe/ppe4/onf-details.png')}}" class="screen-picture"></a>
-	<a target="_blank" href="{{asset('img/ppe/ppe4/onf-details-chart.png')}}"><img src="{{asset('img/ppe/ppe4/onf-details-chart.png')}}" class="screen-picture"></a>
+		<hr>
 
-	<hr>
-
-	<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-accueil.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-accueil.png')}}" class="screen-picture"></a>
-	<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-liste.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-liste.png')}}" class="screen-picture"></a>
-	<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-import.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-import.png')}}" class="screen-picture"></a>
-	<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-details.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-details.png')}}" class="screen-picture"></a>
-	<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-saisie.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-saisie.png')}}" class="screen-picture"></a>
+		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-accueil.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-accueil.png')}}" class="screen-picture"></a>
+		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-liste.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-liste.png')}}" class="screen-picture"></a>
+		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-import.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-import.png')}}" class="screen-picture"></a>
+		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-details.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-details.png')}}" class="screen-picture"></a>
+		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-saisie.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-saisie.png')}}" class="screen-picture"></a>
 
 
-</div><hr>
-<div class="title-stripes font-italic">
-    <p><strong>Compétences mises en oeuvre</strong></p>
-</div>
-<div>
+	</div><hr>
+	<div class="title-stripes font-italic">
+		<p><strong>Compétences mises en oeuvre</strong></p>
+	</div>
+	<div>
 
-	<p class="underline">Mise en production d'un service</p>
-	<li>A1.3.04 Déploiement d'un service</li><br>
-	<p class="underline">Travail en mode projet</p>
-	<li>A1.4.01 Participation à un projet</li>
-	<p class="underline">Gestion des problèmes et des changements</p>
-	<li>A1.4.02 Maquetter un élément de la solution applicative</li>
-	<li>A2.3.02 Proposition d'amélioration d'un service</li><br>
-	<p class="underline">Conception et réalisation d'une solution applicative</p>
-	<li>A4.1.02 Conception ou adaptation de l'interface utilisateur d'une solution applicative</li>
-	<li>A4.1.03 Conception ou adaptation d'une base de données / Manipuler les données liées à la solution applicative à travers un langage de requête</li>
-	<li>A4.1.07 Utiliser des composants d'accès aux données</li>
+		<p class="underline">Mise en production d'un service</p>
+		<li>A1.3.04 Déploiement d'un service</li><br>
+		<p class="underline">Travail en mode projet</p>
+		<li>A1.4.01 Participation à un projet</li>
+		<p class="underline">Gestion des problèmes et des changements</p>
+		<li>A1.4.02 Maquetter un élément de la solution applicative</li>
+		<li>A2.3.02 Proposition d'amélioration d'un service</li><br>
+		<p class="underline">Conception et réalisation d'une solution applicative</p>
+		<li>A4.1.02 Conception ou adaptation de l'interface utilisateur d'une solution applicative</li>
+		<li>A4.1.03 Conception ou adaptation d'une base de données / Manipuler les données liées à la solution applicative à travers un langage de requête</li>
+		<li>A4.1.07 Utiliser des composants d'accès aux données</li>
 
+	</div>
 </div>
 
 {% endblock %}

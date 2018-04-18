@@ -1,33 +1,64 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+<div class="container">
+    {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+        <div class="col-md-6 col-lg-6 justify-content-center align-items-center">
+            <h2>Gestion des posts</h2>
+            <form class="form" id="myform">
+                <div class="form-group">
+                    <label for="input_title">Titre du post</label>
+                    <input class="form-control" type="text" id="input_title" />
+                </div>
+                <div class="form-group">
+                    <label for="input_body">Texte du post</label>
+                    <textarea class="form-control" id="input_body"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="input_file">Image du post</label>
+                    <input class="form-control-file" type="file" id="input_file" name="input_file"/>
+                </div>
 
-<div class="row">
-    <div class="col-sm-12 col-md-10">
-        {% for article in articles %}
-            <div id="art-{{article.id}}">
-                <article class="article row">
-                    <div class="col-md-3">
-                        <a class="hidden-sm-down" href="{{article.urlSource}}" target="_blank">
-                            <img class="art-picture" src="{{asset(article.urlPicture)}}" alt="{{article.title}}">
-                        </a>
-                    </div>
-                    <div class="col">
-                        <h2 class="art-title">
-                            <a href="{{article.urlSource}}" target="_blank">{{article.title}}</a>
-                        </h2>
-                        <div class="art-header">
-                            <div class="left">
-                                <p>Crée le {{article.date|date("d/m/Y")}}</p>
-                            </div>
+                <input type="hidden" id="input_id" data-id=""/>
+                <button class="btn btn-primary" type="button" id="_submit" name="_submit" onclick="sendModif();">Valider</button>
+
+            </form>
+        </div>
+        <hr>
+    {% endif %}
+    <div class="row">
+        <div class="col-sm-12 col-md-10">
+            {% for article in articles %}
+                <div id="art-{{article.id}}" class="bg-faded">
+                    <article class="article row">
+                        <div class="col-md-3">
+                            <a class="hidden-sm-down" href="{{article.urlArticle}}" target="_blank">
+                                <img class="art-picture" src="{{asset(article.imagePath)}}" alt="{{article.title}}">
+                            </a>
                         </div>
-                        <div class="article-description">
-                            <p>{{article.description}}</p>
-                        </div>  
-                    </div>              
-                </article>
-            </div>
-        {% endfor %}
+                        <div class="col">
+                            <h2 class="art-title">
+                                <a href="{{article.urlArticle}}" target="_blank">{{article.title}}</a>
+                            </h2>
+                            <div class="art-header">
+                                <div class="left">
+                                    <p>Crée le {{article.createdAt|date("d/m/Y")}}</p>
+                                </div>
+                            </div>
+                            <div class="article-description">
+                                <p>{{article.body}}</p>
+                            </div>  
+                        </div>              
+                    </article>
+                    {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                        <div class="text-right p-2">
+                            <button class="btn btn-warning" onclick="modifier({{article.id}});">Modifier</button>
+                            <button class="btn btn-danger" onclick="supprimer({{article.id}});">Supprimer</button>
+                        </div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
     </div>
 </div>
 
