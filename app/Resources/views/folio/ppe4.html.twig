@@ -3,7 +3,6 @@
 {% block body %}
 
 <div class="container">
-	<div>
 		<div class="row">
 				<img src="{{asset('img/ppe/ppe4/logo-onf.png')}}"><h3 class="skill-title-1">Office national des forêts</h3>
 		</div><hr>
@@ -26,15 +25,7 @@
 			assure des missions de prévention et de gestion des risques naturels.
 			</p>
 			<p>
-			L'ONF est organisé en 6 directions territoriales et 5 directions régionales (Corse, La Réunion,
-			Guyane, Guadeloupe et Martinique), 51 agences territoriales, 320 unités territoriales. Son
-			siège est à Paris.
-			</p>
-			<p>
-			L'ONF emploie près de 10.000 personnes. Ces professionnels de la forêt et des espaces
-			naturels apportent leur compétence, leur expérience et leur savoir-faire de gestion, leur
-			capacité d'expertise et de travaux, leur connaissance de la forêt et du bois, à la réalisation
-			des missions de l'établissement.
+			L'ONF est organisé en 6 directions territoriales, directions régionales  et emploie près de 10.000 personnes.
 			</p>
 			<p>
 			Au quotidien, les forestiers veillent à l’entretien, au développement et au renouvellement
@@ -50,11 +41,10 @@
 			graphique ou un smartphone sur lequelle il pourra compléter la fiche de l’arbre concerné.
 			</p>
 		</article><br>
-	</div>
-	<div class="title-stripes font-italic">
-		<p><strong>Besoins</strong></p>
-	</div>
 	<div>
+		<div class="title-stripes font-italic">
+			<p><strong>Besoins</strong></p>
+		</div>
 
 		<p>
 			Le projet est issu d’un besoin de terrain : les bûcherons ont à leur disposition une base de
@@ -62,26 +52,74 @@
 			renseigner facilement, quand ils sont sur place. La base de données est actuellement mise à
 			jour par le biais de formulaires accessibles uniquement dans les bureaux de leur unité.
 		</p>
-
-		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-liste.png')}}"><img src="{{asset('img/ppe/ppe4/onf-liste.png')}}" class="screen-picture"></a>
-		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-charts.png')}}"><img src="{{asset('img/ppe/ppe4/onf-charts.png')}}" class="screen-picture"></a>
-		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-details.png')}}"><img src="{{asset('img/ppe/ppe4/onf-details.png')}}" class="screen-picture"></a>
-		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-details-chart.png')}}"><img src="{{asset('img/ppe/ppe4/onf-details-chart.png')}}" class="screen-picture"></a>
-
-		<hr>
-
-		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-accueil.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-accueil.png')}}" class="screen-picture"></a>
-		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-liste.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-liste.png')}}" class="screen-picture"></a>
-		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-import.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-import.png')}}" class="screen-picture"></a>
-		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-details.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-details.png')}}" class="screen-picture"></a>
-		<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-saisie.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-saisie.png')}}" class="screen-picture"></a>
-
-
-	</div><hr>
-	<div class="title-stripes font-italic">
-		<p><strong>Compétences mises en oeuvre</strong></p>
+		<p>
+			La mission à pour but de faciliter la saisie sur le terrain en permettant de scanner la puce 
+			d'un arbre par le bians d'une tablette ou d'un smartphone. Les données seront dans un premier 
+			temps enregistrées en local puisque l'accès internet est limité en forêt, puis chaque soir
+			une synchronisation sur la base de données centralisée sera effectuée.
+		</p>
+		<p>
+			En parallèle, une application web doit être développée afin de visualiser les différentes interventions 
+			sur les arbres. Elle permettra aussi de visualiser des statistiques.
+		</p>
 	</div>
 	<div>
+		<div class="title-stripes font-italic">
+			<p><strong>Travail réalisé</strong></p>
+		</div>
+		<div>
+			<h3>Base de données</h3>
+			<p>
+				Il a tout d'abord fallu créer une base de données afin de pouvoir stocker les données. Cette base de données 
+				a dans un premier temps été alimentée par un jeu d'essai d'une cinquantaine d'arbres de la région de Dijon.
+			</p>
+			<a target="_blank" href="{{asset('img/ppe/ppe4/PPE4_MEA.jpg')}}"><img src="{{asset('img/ppe/ppe4/PPE4_MEA.jpg')}}" class="screen-picture"></a>
+		</div>
+		<hr>
+		<div>
+			<h3>Application Android</h3>
+			<p>
+				Pour l'application mobile, une application native android a été choisie d'una part grâce à la possibilité d'utiliser des 
+				fonctions natives du système d'exploitation mais aussi grâce à de meilleurs performances qu'une application WebView.
+			</p>
+			<p>
+				L'application est composée:
+				<ul>
+					<li>d'un menu d'accueil</li>
+					<li>d'une page listant les arbres</li>
+					<li>d'une fonction de synchronisation des données par rapport à la base de données centralisée</li>
+					<li>d'un formulaire de saisie des informations pour l'arbre scanné</li>
+				</ul>
+			</p>
+
+			<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-accueil.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-accueil.png')}}" class="screen-picture"></a>
+			<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-liste.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-liste.png')}}" class="screen-picture"></a>
+			<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-import.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-import.png')}}" class="screen-picture"></a>
+			<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-details.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-details.png')}}" class="screen-picture"></a>
+			<a target="_blank" href="{{asset('img/ppe/ppe4/onf-android-saisie.png')}}"><img src="{{asset('img/ppe/ppe4/onf-android-saisie.png')}}" class="screen-picture"></a>
+		</div>
+		<hr>
+		<div>		
+			<h3>Application Web</h3>
+			<p>
+				L'application web qui a été développée en parallèle permet de visualiser les données liées aux arbres, 
+				disponibles dans la base centralisée.
+				<ul>
+					<li>visualisation globale</li>
+					<li>visualisation des interventions / observation</li>
+					<li>visualisation de statistiques gobales / par arbre</li>
+				</ul>
+			</p>
+			<a target="_blank" href="{{asset('img/ppe/ppe4/onf-liste.png')}}"><img src="{{asset('img/ppe/ppe4/onf-liste.png')}}" class="screen-picture"></a>
+			<a target="_blank" href="{{asset('img/ppe/ppe4/onf-charts.png')}}"><img src="{{asset('img/ppe/ppe4/onf-charts.png')}}" class="screen-picture"></a>
+			<a target="_blank" href="{{asset('img/ppe/ppe4/onf-details.png')}}"><img src="{{asset('img/ppe/ppe4/onf-details.png')}}" class="screen-picture"></a>
+			<a target="_blank" href="{{asset('img/ppe/ppe4/onf-details-chart.png')}}"><img src="{{asset('img/ppe/ppe4/onf-details-chart.png')}}" class="screen-picture"></a>
+		</div>
+	</div><hr>
+	<div>
+		<div class="title-stripes font-italic">
+			<p><strong>Compétences mises en oeuvre</strong></p>
+		</div>
 
 		<p class="underline">Mise en production d'un service</p>
 		<li>A1.3.04 Déploiement d'un service</li><br>
