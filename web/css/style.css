@@ -113,8 +113,17 @@ footer a {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 30px;
-    height: 150px;
-    width: 250px;
+    max-height: 300px;
+    max-width: 500px;
+    min-height: 100px;
+    min-width: 400px;
+    width: auto;
+    height: auto;
+    border: 1px solid gray;
+}
+
+.carousel-custom-h-300 {
+    height: 300px;
 }
 
 .article {
