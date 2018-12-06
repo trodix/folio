@@ -59,7 +59,7 @@
 										</span>
 										<div class="dropdown-divider"></div>
 									{% endif %}
-									<a class="dropdown-item" href="/admin">Administration</a>
+									{# <a class="dropdown-item" href="/admin">Administration</a> #}
 									<div class="dropdown-divider"></div>
 									{% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
 										<a class="dropdown-item" href="{{ path('fos_user_security_logout') }}">

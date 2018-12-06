@@ -66,3 +66,11 @@ DirectoryIndex app.php
         # RedirectTemp cannot be used instead
     </IfModule>
 </IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTPS} off
+    RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+    RewriteCond %{HTTP_HOST} ^trodix.fr [NC]
+    RewriteRule ^(.*)$ http://www.trodix.fr/$1 [L,R=301]
+</IfModule>
